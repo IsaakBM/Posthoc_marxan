@@ -1,7 +1,5 @@
-# Posthoc_marxan
-
-Post hoc analyses with Marxan
+# Functions Post hoc Marxan
 
 in construction
 
-For more info 
+Please contact [Isaac Brito-Morales](i.britomorales@uq.edu.au) for more info
