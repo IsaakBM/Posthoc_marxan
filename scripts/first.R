@@ -1,12 +1,13 @@
 
-library(dplyr)
-library(tidyr)
-library(raster)
-library(sf)
-library(lwgeom) # st_perimeter check https://r-spatial.github.io/lwgeom/index.html
-library(rgdal)
 
 posthoc <- function(path) {
+  library(dplyr)
+  library(tidyr)
+  library(raster)
+  library(sf)
+  library(lwgeom) # st_perimeter check https://r-spatial.github.io/lwgeom/index.html
+  library(rgdal)
+  
   # Set wd to start working
     dir <- path
     input <- paste(dir, "/input", sep = "")
@@ -28,7 +29,7 @@ posthoc <- function(path) {
       # Extract from the shapefile dt
         dt2 <- dt_shp[dt_shp$ET_ID %in% dt$planning_unit, ]  
         dt3 <- dt2 %>% summarise(new_cost = sum(COST, do_union = TRUE)) # keep only ID, cost and geometry
-        dt_final <- dt3 %>% mutate(area = st_area(trial2), perimeter = st_perimeter(trial2))
+        dt_final <- dt3 %>% mutate(area = st_area(dt3), perimeter = st_perimeter(dt3))
       
         ls_geom[[i]] <- dt_final # a list where results will be added
 
@@ -45,3 +46,6 @@ posthoc <- function(path) {
     #     and a shapefile
     # writeOGR(trial_sp, layer = "trial_sp", dsn = "CTI_pu/", driver = "ESRI Shapefile")
 }
+
+
+
