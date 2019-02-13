@@ -41,9 +41,9 @@ posthoc <- function(path, scenario, outdir) {
     df_geom <- do.call(rbind, ls_geom) # create a dataframe of the previous list
     sp_geom <- as(df_geom, "Spatial") # create an sp object
   # Write files
-    st_write(obj = df_geom, dsn = paste(outdir, scenario, ".shp", sep = ""))
+    st_write(obj = df_geom, dsn = paste(outdir, scenario, ".shp", sep = "")) # some warnings due perimeter, solution and scenario variables... check again
     write.csv(sp_geom@data, paste(outdir, scenario, ".csv", sep = ""), row.names = FALSE)
     
-  return(df_geom)
+  return(sp_geom@data)
 }
 
