@@ -26,10 +26,13 @@ posthoc <- function(path) {
       dt <- read.table(out_files[i], sep = ",", header = TRUE) # read every element from the out_files object
         dt <- dt[dt$solution == 1,] # keep just the selected planning units
         dt <- dt %>% arrange(planning_unit)
+        # name of Marxan's solution
+          name <- unlist(strsplit(out_files[i], "_"))[2]
+            name <- sub(pattern = "*.txt", "", name)
       # Extract from the shapefile dt
         dt2 <- dt_shp[dt_shp$ET_ID %in% dt$planning_unit, ]  
         dt3 <- dt2 %>% summarise(new_cost = sum(COST, do_union = TRUE)) # keep only ID, cost and geometry
-        dt_final <- dt3 %>% mutate(area = st_area(dt3), perimeter = st_perimeter(dt3))
+        dt_final <- dt3 %>% mutate(area = st_area(dt3), perimeter = st_perimeter(dt3), solution = name)
       
         ls_geom[[i]] <- dt_final # a list where results will be added
 
@@ -47,5 +50,6 @@ posthoc <- function(path) {
     # writeOGR(trial_sp, layer = "trial_sp", dsn = "CTI_pu/", driver = "ESRI Shapefile")
 }
 
+  test <- posthoc(path = "Scenario1")
 
 
