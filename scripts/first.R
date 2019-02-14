@@ -1,8 +1,9 @@
 
 
-posthoc <- function(path, scenario, outdir) {
+posthoc <- function(path, scenario, outdir) { # add output_log file
   library(dplyr)
-  library(tidyr)
+  library(tidyr) # extract_number
+  library(readr) # parse_number instead of extract_number
   library(raster)
   library(sf)
   library(lwgeom) # st_perimeter check https://r-spatial.github.io/lwgeom/index.html
@@ -15,6 +16,7 @@ posthoc <- function(path, scenario, outdir) {
     shp <- paste(dir, "/CTI_pu", sep = "")
   # Files location
     out_files <- list.files(path = output, pattern = "*_r.*.txt$", full.names = TRUE) # should be 100
+    out_log <- list.files(path = output, pattern = "*_log.*.dat$", full.names = TRUE) # should be 100
     shp_files <- list.files(path = shp, pattern = "*.shp$", full.names = TRUE) # should be 1
   # Read shapefile just one time 
     dt_shp <- st_read(shp_files) %>% dplyr::select(ET_ID, COST, geometry)
@@ -29,10 +31,15 @@ posthoc <- function(path, scenario, outdir) {
         # Marxan's solution names
           name <- unlist(strsplit(out_files[i], "_"))[2]
             name <- sub(pattern = "*.txt", "", name)
+        # Best solution find 
+          dt_outlog <- readLines(out_log)
+            name_outlog <- dt_outlog[grep("Best solution*", x = dt_outlog)]
+              name_outlog <- unlist(strsplit(name_outlog, " "))[5]
       # Extract from the shapefile the object dt
         dt2 <- dt_shp[dt_shp$ET_ID %in% dt$planning_unit, ]  
         dt3 <- dt2 %>% summarise(new_cost = sum(COST, do_union = TRUE)) # keep only ID, cost and geometry
-        dt_final <- dt3 %>% mutate(area = st_area(dt3), perimeter = st_perimeter(dt3), solution = name, scenario = scenario)
+        dt_final <- dt3 %>% mutate(area = st_area(dt3), perimeter = st_perimeter(dt3), solution = name, scenario = scenario, 
+                                   best_solution = ifelse(as.character(tidyr::extract_numeric(name)) == name_outlog, "YES", "NO"))
       
         ls_geom[[i]] <- dt_final # a list where results will be added
     }
