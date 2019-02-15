@@ -14,8 +14,8 @@ par_posthoc <- function(name, nfolder) { # folder name? perhaps?
     ls_csv <- list()
     df_ls <- foreach(i = 1:length(folders), .packages = c("dplyr", "tidyr", "readr", "raster", "sf", "lwgeom", "rgdal")) %dopar% {
       
-      cat("remains", length(folders) - which(folders == folders[k])+1,"\n")
-      ls_csv[[i]] <- test <- posthoc(path = folders[i], outdir = "CSV/", scenario = i)  
+      cat("remains", length(folders) - which(folders == folders[i])+1,"\n")
+      ls_csv[[i]] <- posthoc(path = folders[i], outdir = "CSV/", scenario = i)  
     } 
     stopCluster(cl)
   
