@@ -2,7 +2,7 @@
 library(doParallel)
 library(parallel)
 
-par_posthoc <- function(folder_name, nfolder, outdir) { # folder name? perhaps?
+par_posthoc <- function(folder_name, nfolder, outdir) {
   
   # Create a vector of every folder scenario
     folders <- paste(name, seq(1, nfolder, 1), sep = "")
