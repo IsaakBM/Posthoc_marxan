@@ -40,8 +40,11 @@ posthoc <- function(path, scenario, outdir) { # add output_log file
         dt3 <- dt2 %>% summarise(new_cost = sum(COST, do_union = TRUE)) # keep only ID, cost and geometry
         dt_final <- dt3 %>% mutate(area = st_area(dt3), perimeter = st_perimeter(dt3), solution = name, scenario = scenario, 
                                    best_solution = ifelse(as.character(tidyr::extract_numeric(name)) == name_outlog, "YES", "NO"))
-      
-        ls_geom[[i]] <- dt_final # a list where results will be added
+      # Fragmentation calculations
+        dt_final <- dt_final %>% mutate(per_circle = (sqrt(st_area/pi))*2*pi)
+          dt_final <- dt_final %>% mutate(fragmentation = perimeter/per_circle)
+        
+      ls_geom[[i]] <- dt_final # a list where results will be added
     }
   
   # final objects to work with
