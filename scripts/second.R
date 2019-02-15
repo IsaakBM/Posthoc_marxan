@@ -1,14 +1,24 @@
-test <- posthoc(path = "Scenario1", outdir = "scripts/", scenario = "1")
 
+library(doParallel)
+library(parallel)
 
-folders <- paste("Scenario", seq(1, 20, 1), sep = "")
-
-ls_csv <- list()
-for (j in 1:length(sc_files)) {
+par_posthoc <- function(name, nfolder) { # folder name? perhaps?
   
-  cat("remains", length(sc_files) - which(sc_files == sc_files[k])+1,"\n")
-  ls_csv[[j]] <- test <- posthoc(path = folders[i], outdir = "CSV/", scenario = i)  
+  # Create a vector of every folder scenario
+    folders <- paste(name, seq(1, nfolder, 1), sep = "")
+  # Define the parallel structure
+    UseCores <- detectCores() -1
+    cl <- makeCluster(UseCores)  
+    registerDoParallel(cl)
+  # Init
+    ls_csv <- list()
+    <- foreach(i = 1:length(folders), .packages = c("dplyr", "tidyr", "readr", "raster", "sf", "lwgeom", "rgdal")) %dopar% {
+      
+      cat("remains", length(folders) - which(folders == folders[k])+1,"\n")
+      ls_csv[[i]] <- test <- posthoc(path = folders[i], outdir = "CSV/", scenario = i)  
+    } 
+    stopCluster(cl)
   
+  df_final <- do.call(rbind, ls_csv)
+  return(df_final)
 }
-
-# do a parallel on this function
