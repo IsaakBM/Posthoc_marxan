@@ -12,13 +12,13 @@ par_posthoc <- function(name, nfolder) { # folder name? perhaps?
     registerDoParallel(cl)
   # Init
     ls_csv <- list()
-    <- foreach(i = 1:length(folders), .packages = c("dplyr", "tidyr", "readr", "raster", "sf", "lwgeom", "rgdal")) %dopar% {
+    df_ls <- foreach(i = 1:length(folders), .packages = c("dplyr", "tidyr", "readr", "raster", "sf", "lwgeom", "rgdal")) %dopar% {
       
       cat("remains", length(folders) - which(folders == folders[k])+1,"\n")
       ls_csv[[i]] <- test <- posthoc(path = folders[i], outdir = "CSV/", scenario = i)  
     } 
     stopCluster(cl)
   
-  df_final <- do.call(rbind, ls_csv)
+  df_final <- do.call(rbind, df_ls)
   return(df_final)
 }
