@@ -1,80 +1,58 @@
-test <- par_posthoc(folder_name = "Scenario", nfolder = 14, outdir = "results/")
 
-
-
-# a <- read.csv("results/2.csv")
-# b <- read.csv("results/3.csv")
-# c <- read.csv("results/4.csv")
-# 
-# df <- rbind(a, b, c)
 library(ggplot2)
 library(dplyr)
-test$scenario <- as.factor(test$scenario)
-test$best_solution <- as.factor(test$best_solution)
-str(test)
-glimpse(test)
 
-df2 <- df[df$best_solution == "YES", ]
-df2 <- mutate(xmin = min(df$perimeter), xmax = )
+# Read every .csv file from the folder (where you put them all together) # you can change the directory!!!!
+  rs6 <- read.csv("ydataframes/finalresults6.csv")
+  rs7 <- read.csv("ydataframes/finalresults7.csv")
+  rs8 <- read.csv("ydataframes/finalresults8.csv")
+  rs9 <- read.csv("ydataframes/finalresults9.csv")
 
-
-q <- df %>% 
-  group_by(df$scenario) %>% 
-  summarise(min_per = min(perimeter), max_per = max(perimeter)) %>% 
-  data.frame()
-
-
-dodge <- position_dodge(width = 0.5)
-test$scenario <- as.factor(test$scenario)
-test$best_solution <- as.factor(test$best_solution)
-ggplot() +
-  geom_point(data = test, aes(x = perimeter, y = new_cost, colour = scenario, shape = best_solution), size = 3) +
-  # geom_errorbar(data = df, aes(ymax = max(df$perimeter), ymin = min(df$perimeter)), position = dodge)
-  ggsave("results/plot1.pdf", width = 15, height = 10)
-ggplot() +
-  geom_point(data = test, aes(x = fragmentation, y = new_cost, colour = scenario, shape = best_solution), size = 3) +
-  # geom_errorbar(data = df, aes(ymax = max(df$perimeter), ymin = min(df$perimeter)), position = dodge)
-  ggsave("results/plot2.pdf", width = 15, height = 10)
-
-
-  
-  ggplot() +
-    geom_point(data = df, aes(x = perimeter, y = new_cost, colour = scenario)) +
-    geom_point(data = df2, aes(x = perimeter, y = new_cost, shape = best_solution)) +
-    # geom_errorbar(data = df2, aes(x = perimeter, y = perimeter, ymax = perimeter, ymin = perimeter))
-  ggsave("results/plot1.pdf")
-
-  df3 <- cbind(df2, q$min_per, q$max_per)
-  
-  p1 <- ggplot() +
-    geom_point(data = df, aes(x = perimeter, y = new_cost, colour = scenario)) +
-    geom_point(data = df2, aes(x = perimeter, y = new_cost, shape = best_solution))
+# This is a simple function to convert some columns into factors
+  data_manipulation <- function(df) {
     
+    df$scenario <- as.factor(df$scenario)
+    df$best_solution <- as.factor(df$best_solution)
     
+    return(df)
+  }
 
-  
-  p2 <- ggplot(data = df3, aes(x = df3$perimeter, y = df3$new_cost)) + 
-          geom_point() + 
-          # geom_errorbar(aes(ymin = ymin,ymax = ymax)) +
-          geom_errorbarh(aes(xmin = df3$`q$min_per`,xmax = df3$`q$max_per`))
-  
-  
-  
-  
-  
-  geom_errorbarh(data = q, aes(xmin = q$min_per, xmax = q$max_per))
-  
-  
+# Apply this function to every data frame and then add a new colum "it" which means interation
+  rs6 <- data_manipulation(rs6)
+    rs6$it <- as.factor("it6")
+  rs7 <- data_manipulation(rs7)
+    rs7$it <- as.factor("it7")
+  rs8 <- data_manipulation(rs8)
+    rs8$it <- as.factor("it8")
+  rs9 <- data_manipulation(rs9)
+    rs9$it <- as.factor("it9")
+  # Merge data frames into onw 
+    rs_list <- list(rs6, rs7, rs8, rs9)
+    rs_final <- do.call(rbind, rs_list)
 
-  q <- data.frame(x = 1:10,
-                   y = 1:10,
-                   ymin = (1:10) - runif(10),
-                   ymax = (1:10) + runif(10),
-                   xmin = (1:10) - runif(10),
-                   xmax = (1:10) + runif(10))
-  
-  ggplot(data = q,aes(x = x,y = y)) + 
-    geom_point() + 
-    geom_errorbar(aes(ymin = ymin,ymax = ymax)) + 
-    geom_errorbarh(aes(xmin = xmin,xmax = xmax))
-  
+
+# Plotting
+  # Plot without including it as an argument (original plots maybe?)
+    # Perimeter
+      ggplot() +
+        geom_point(data = rs_final, aes(x = perimeter, y = new_cost, colour = scenario, shape = best_solution), size = 3) +
+        ggsave("results/plot02_perimeter.pdf", width = 15, height = 10)
+    # Fragmentation
+      ggplot() +
+        geom_point(data = rs_final, aes(x = fragmentation, y = new_cost, colour = scenario, shape = best_solution), size = 3) +
+        ggsave("results/plot02_fragmentation.pdf", width = 15, height = 10)
+
+  # Plot including it as an argument (original plots maybe?)
+    # Option 1
+      ggplot() +
+        geom_point(data = rs_final, aes(x = perimeter, y = new_cost, colour = scenario, shape = it), size = 2) +
+        ggsave("results/plot03_a_perimeter.pdf", width = 15, height = 10)
+    # Option 2
+      ggplot() +
+        geom_point(data = rs_final, aes(x = perimeter, y = new_cost, colour = it, shape = best_solution), size = 2) +
+        ggsave("results/plot03_b_perimeter.pdf", width = 15, height = 10)
+    # Option 2
+      ggplot() +
+        geom_point(data = rs_final, aes(x = perimeter, y = new_cost, colour = scenario, shape = it), size = 3) +
+        facet_wrap( ~ best_solution) +
+        ggsave("results/plot03_c_perimeter.pdf", width = 15, height = 10)
