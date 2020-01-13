@@ -54,9 +54,10 @@ abline(v=pese)
 cc=bese(x,y,0)
 cc$iplast
 
+test <- i8[i8$perimeter_m <= 12230909,]
 
-x <- i8$perimeter_m
-y <- i8$new_cost
+x <- test$perimeter_m
+y <- test$new_cost
 plot(x,y,cex=0.3,pch=19)
 grid()
 bb=ese(x,y,0);bb
