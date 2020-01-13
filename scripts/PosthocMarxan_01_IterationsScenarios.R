@@ -15,7 +15,7 @@ posthoc_marxan <- function(path, outdir) {
       new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])] # is the package in MY list of packages?
       if(length(new.packages)) install.packages(new.packages) # if not -> install it
   # Load packages
-  lapply(list.of.packages, require, character.only = TRUE)
+    lapply(list.of.packages, require, character.only = TRUE)
   
   # Define all the interation directories 
     dir.scenarios <- list.dirs(paste(list.dirs(path = path, full.names = TRUE, recursive = FALSE)), full.names = TRUE, recursive = FALSE)
@@ -37,7 +37,7 @@ posthoc_marxan <- function(path, outdir) {
           cl <- makeCluster(UseCores)  
           registerDoParallel(cl)
           ls_geom <- list() # empty list to allocate results
-          # A parallel structure to search the different solutins per iterations and calculates boundaries and perimeters 
+          # A parallel structure to search the different solutions per iterations and calculates boundaries and perimeters 
             geom_list <- foreach(j = 1:length(out_files), .packages = c("sf", "raster", "dplyr", "tidyr", "readr", "lwgeom")) %dopar% {
               # Read outfiles
                 dt <- read.table(out_files[j], sep = ",", header = TRUE) # read every element from the out_files object
@@ -62,13 +62,13 @@ posthoc_marxan <- function(path, outdir) {
                   dt_final <- dt_final %>% mutate(per_circle = (sqrt(area/pi))*2*pi)
                   dt_final <- dt_final %>% mutate(fragmentation = perimeter/per_circle)
               
-                ls_geom[[j]] <- dt_final # to allocate resuts
+                ls_geom[[j]] <- dt_final # to allocate results
                 } 
             stopCluster(cl)
         
     # Combine to a dataframe per iteration-scenario
       geom_list <- do.call(rbind, geom_list)
-      # Cleane the obejct
+      # Cleane the object
         geom_list <- geom_list %>% data.frame %>% dplyr::select(-geometry) %>% 
           mutate(area = as.numeric(area), 
                  perimeter = as.numeric(perimeter),
@@ -81,7 +81,7 @@ posthoc_marxan <- function(path, outdir) {
     # Final list object
       scenario_list[[i]] <- geom_list
       }
-  # Final dataframe for all iterations-scenarios in directory
+  # Final dataframe for all iterations-scenarios in directory path
     iteration_df <- do.call(rbind, scenario_list)
     name.df <- paste("PostHoc_Calibration")
     write.csv(iteration_df, paste(outdir, name.df, ".csv", sep = ""), row.names = FALSE)  
