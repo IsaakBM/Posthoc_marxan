@@ -1,0 +1,13 @@
+initial  value 43.348524 
+iter   5 value 37.675910
+iter  10 value 36.882634
+final  value 36.640296 
+converged
+null device 
+          1 
+null device 
+          1 
+initial  value 35.583972 
+iter   5 value 28.748532
+final  value 28.524404 
+converged

@@ -1,0 +1,3046 @@
+Marxan v 2.4 begin execution
+
+LoadOptions
+RandSeed iseed -1 RandSeed1 -1578363266
+before LoadPUData
+after LoadPUData
+prob field not present
+before LoadSpeciesData
+after LoadSpeciesData
+before build search arrays
+after build search arrays
+before ReadConnections
+after ReadConnections
+before LoadSparseMatrix
+after LoadSparseMatrix
+Prob2D is off
+before process block definitions
+after process block definitions
+before CalcTotalAreas
+after CalcTotalAreas
+before ApplySpecProp
+ApplySpecProp spname 2000968 target 8968015.780000
+ApplySpecProp spname 2000967 target 22860710.560000
+ApplySpecProp spname 2000966 target 731769.080000
+ApplySpecProp spname 2000964 target 10118765.840000
+ApplySpecProp spname 2000961 target 94917804.080000
+ApplySpecProp spname 2000960 target 2731165.600000
+ApplySpecProp spname 2000957 target 15142310.720000
+ApplySpecProp spname 2000955 target 55623349.920000
+ApplySpecProp spname 2000953 target 27412781.520000
+ApplySpecProp spname 2000952 target 3883653.060000
+ApplySpecProp spname 2000947 target 24485008.200000
+ApplySpecProp spname 2000944 target 1237214.440000
+ApplySpecProp spname 2000940 target 4956992.600000
+ApplySpecProp spname 2000938 target 45769455.640000
+ApplySpecProp spname 2000937 target 3494124.580000
+ApplySpecProp spname 2000936 target 22134501.840000
+ApplySpecProp spname 2000935 target 573343.020000
+ApplySpecProp spname 2000934 target 10700492.240000
+ApplySpecProp spname 2000933 target 462012.060000
+ApplySpecProp spname 2000931 target 568292.660000
+ApplySpecProp spname 2000928 target 28448717.320000
+ApplySpecProp spname 2000926 target 41197124.760000
+ApplySpecProp spname 2000925 target 4637271.220000
+ApplySpecProp spname 2000923 target 155167616.280000
+ApplySpecProp spname 2000920 target 308177647.980000
+ApplySpecProp spname 2000919 target 2834048.580000
+ApplySpecProp spname 2000918 target 93703916.700000
+ApplySpecProp spname 2000917 target 155153306.360000
+ApplySpecProp spname 2000915 target 3269326579.060000
+ApplySpecProp spname 2000914 target 118445695.620000
+ApplySpecProp spname 2000913 target 181585292.600000
+ApplySpecProp spname 2000905 target 1508090.060000
+ApplySpecProp spname 2000896 target 19617706.240000
+ApplySpecProp spname 2000894 target 49221104.020000
+ApplySpecProp spname 2000892 target 668708594.220000
+ApplySpecProp spname 2000891 target 34750403.800000
+ApplySpecProp spname 2000890 target 27062255.460000
+ApplySpecProp spname 2000879 target 1723513.720000
+ApplySpecProp spname 2000866 target 3115334.660000
+ApplySpecProp spname 2000863 target 46636626.660000
+ApplySpecProp spname 2000861 target 365187871.160000
+ApplySpecProp spname 2000860 target 10760328.840000
+ApplySpecProp spname 2000859 target 32893028.000000
+ApplySpecProp spname 2000851 target 90508.680000
+ApplySpecProp spname 2000850 target 933537.660000
+ApplySpecProp spname 2000849 target 299823.900000
+ApplySpecProp spname 2000844 target 356892.900000
+ApplySpecProp spname 2000843 target 67046.640000
+ApplySpecProp spname 2000840 target 21054.160000
+ApplySpecProp spname 2000838 target 111377.200000
+ApplySpecProp spname 2000836 target 52423.580000
+ApplySpecProp spname 2000830 target 532972.440000
+ApplySpecProp spname 2000823 target 2685.320000
+ApplySpecProp spname 2000821 target 220383.240000
+ApplySpecProp spname 2000819 target 128946.020000
+ApplySpecProp spname 2000818 target 1615869.040000
+ApplySpecProp spname 2000817 target 188816.280000
+ApplySpecProp spname 2000816 target 2346094.180000
+ApplySpecProp spname 2000815 target 12411.360000
+ApplySpecProp spname 2000810 target 57206.700000
+ApplySpecProp spname 2000808 target 299605.960000
+ApplySpecProp spname 2000807 target 9278.260000
+ApplySpecProp spname 2000805 target 246787.640000
+ApplySpecProp spname 2000802 target 111907.600000
+ApplySpecProp spname 2000801 target 18446.360000
+ApplySpecProp spname 2000800 target 14156.920000
+ApplySpecProp spname 2000799 target 4683025.700000
+ApplySpecProp spname 2000797 target 58983546.800000
+ApplySpecProp spname 2000796 target 16805275.540000
+ApplySpecProp spname 2000795 target 1183658.320000
+ApplySpecProp spname 2000500 target 869876525.200000
+ApplySpecProp spname 2000404 target 190757282.000000
+ApplySpecProp spname 2000403 target 68095335.500000
+ApplySpecProp spname 2000345 target 47416356.310000
+ApplySpecProp spname 2000344 target 37769130.350000
+ApplySpecProp spname 2000343 target 34800701.700000
+ApplySpecProp spname 2000342 target 2442112.050000
+ApplySpecProp spname 2000341 target 198988393.370000
+ApplySpecProp spname 2000340 target 88935264.040000
+ApplySpecProp spname 2000339 target 41061056.760000
+ApplySpecProp spname 2000337 target 8319525.110000
+ApplySpecProp spname 2000336 target 2279594.430000
+ApplySpecProp spname 2000335 target 26805359.450000
+ApplySpecProp spname 2000334 target 8103754.820000
+ApplySpecProp spname 2000333 target 45701233.790000
+ApplySpecProp spname 2000332 target 25241389.710000
+ApplySpecProp spname 2000330 target 9548452.730000
+ApplySpecProp spname 2000329 target 22761.810000
+ApplySpecProp spname 2000328 target 414600029.680000
+ApplySpecProp spname 2000327 target 232016911.370000
+ApplySpecProp spname 2000326 target 432875897.530000
+ApplySpecProp spname 2000325 target 41010631.360000
+ApplySpecProp spname 2000324 target 54279441.950000
+ApplySpecProp spname 2000323 target 201559517.570000
+ApplySpecProp spname 2000322 target 159879910.710000
+ApplySpecProp spname 2000321 target 44356842.170000
+ApplySpecProp spname 2000320 target 3840559.760000
+ApplySpecProp spname 2000319 target 7471601.490000
+ApplySpecProp spname 2000318 target 179485585.540000
+ApplySpecProp spname 2000317 target 282113935.460000
+ApplySpecProp spname 2000316 target 44122233.840000
+ApplySpecProp spname 2000315 target 5362734.490000
+ApplySpecProp spname 2000314 target 44322253.970000
+ApplySpecProp spname 2000313 target 2906208.820000
+ApplySpecProp spname 2000312 target 605478.800000
+ApplySpecProp spname 2000311 target 8125188.250000
+ApplySpecProp spname 2000309 target 216591750.910000
+ApplySpecProp spname 2000307 target 28298357.930000
+ApplySpecProp spname 2000306 target 1147215.250000
+ApplySpecProp spname 2000305 target 263532942.770000
+ApplySpecProp spname 2000304 target 15087338.500000
+ApplySpecProp spname 2000302 target 185603918.010000
+ApplySpecProp spname 2000113 target 4504105.500000
+ApplySpecProp spname 2000111 target 18029155.500000
+ApplySpecProp spname 2000110 target 35196050.000000
+ApplySpecProp spname 2000109 target 3140763.500000
+ApplySpecProp spname 2000108 target 6252794.000000
+ApplySpecProp spname 2000107 target 932480.500000
+ApplySpecProp spname 2000106 target 2566253.500000
+ApplySpecProp spname 2000104 target 6894890.400000
+ApplySpecProp spname 2000103 target 235557.300000
+ApplySpecProp spname 2000102 target 262935.900000
+ApplySpecProp spname 2000098 target 3565105.200000
+ApplySpecProp spname 2000095 target 471114.900000
+ApplySpecProp spname 2000093 target 2671026.900000
+ApplySpecProp spname 2000092 target 2723975.800000
+ApplySpecProp spname 2000085 target 187973.500000
+ApplySpecProp spname 2000078 target 5571184.500000
+ApplySpecProp spname 2000060 target 148689891.600000
+ApplySpecProp spname 2000055 target 0.000000
+ApplySpecProp spname 2000055 target 96418091.100000
+ApplySpecProp spname 2000051 target 669125111.500000
+ApplySpecProp spname 2000043 target 1177787.000000
+ApplySpecProp spname 2000042 target 2355573.500000
+ApplySpecProp spname 2000041 target 34223862.500000
+ApplySpecProp spname 2000040 target 1570382.500000
+ApplySpecProp spname 2000029 target 8556180.500000
+ApplySpecProp spname 2000028 target 664076882.500000
+ApplySpecProp spname 2000027 target 392595.500000
+ApplySpecProp spname 2000026 target 4927810.500000
+ApplySpecProp spname 2000025 target 671923.000000
+ApplySpecProp spname 2000024 target 2113342.800000
+ApplySpecProp spname 2000023 target 23995590.000000
+ApplySpecProp spname 2000022 target 20386036.500000
+ApplySpecProp spname 2000021 target 392596.000000
+ApplySpecProp spname 2000014 target 2119976.100000
+ApplySpecProp spname 1000969 target 9509.460000
+ApplySpecProp spname 1000967 target 3831787.760000
+ApplySpecProp spname 1000961 target 5792904.700000
+ApplySpecProp spname 1000960 target 1587577.980000
+ApplySpecProp spname 1000953 target 8795695.960000
+ApplySpecProp spname 1000952 target 80063.200000
+ApplySpecProp spname 1000947 target 30935888.380000
+ApplySpecProp spname 1000943 target 860890.540000
+ApplySpecProp spname 1000940 target 7835228.940000
+ApplySpecProp spname 1000938 target 6310546.200000
+ApplySpecProp spname 1000937 target 85893.860000
+ApplySpecProp spname 1000936 target 695465.920000
+ApplySpecProp spname 1000935 target 590996.160000
+ApplySpecProp spname 1000928 target 258842499.460000
+ApplySpecProp spname 1000926 target 132134880.340000
+ApplySpecProp spname 1000925 target 49926315.020000
+ApplySpecProp spname 1000923 target 493036247.740000
+ApplySpecProp spname 1000920 target 68332971.860000
+ApplySpecProp spname 1000918 target 23347212.480000
+ApplySpecProp spname 1000917 target 57802767.940000
+ApplySpecProp spname 1000915 target 2604979971.320000
+ApplySpecProp spname 1000914 target 17858667.620000
+ApplySpecProp spname 1000913 target 49884079.880000
+ApplySpecProp spname 1000892 target 16136980.380000
+ApplySpecProp spname 1000890 target 886229.040000
+ApplySpecProp spname 1000879 target 1042713.360000
+ApplySpecProp spname 1000876 target 2159829.940000
+ApplySpecProp spname 1000863 target 835001.240000
+ApplySpecProp spname 1000861 target 186244659.060000
+ApplySpecProp spname 1000859 target 9984209.140000
+ApplySpecProp spname 1000850 target 609587.020000
+ApplySpecProp spname 1000844 target 12463.720000
+ApplySpecProp spname 1000843 target 343710.420000
+ApplySpecProp spname 1000830 target 924851.680000
+ApplySpecProp spname 1000826 target 125506.580000
+ApplySpecProp spname 1000823 target 331836.940000
+ApplySpecProp spname 1000821 target 41701.340000
+ApplySpecProp spname 1000819 target 20133.780000
+ApplySpecProp spname 1000818 target 1217.880000
+ApplySpecProp spname 1000817 target 40528.680000
+ApplySpecProp spname 1000810 target 303553.700000
+ApplySpecProp spname 1000808 target 52564.680000
+ApplySpecProp spname 1000807 target 79660.640000
+ApplySpecProp spname 1000805 target 862428.700000
+ApplySpecProp spname 1000802 target 449518.420000
+ApplySpecProp spname 1000800 target 15232.000000
+ApplySpecProp spname 1000799 target 334832.000000
+ApplySpecProp spname 1000797 target 221410536.740000
+ApplySpecProp spname 1000796 target 2836.960000
+ApplySpecProp spname 1000795 target 550239.680000
+ApplySpecProp spname 1000500 target 554411653.900000
+ApplySpecProp spname 1000405 target 334330796.000000
+ApplySpecProp spname 1000404 target 138796273.000000
+ApplySpecProp spname 1000403 target 19554119.000000
+ApplySpecProp spname 1000402 target 87664790.000000
+ApplySpecProp spname 1000401 target 267402606.500000
+ApplySpecProp spname 1000343 target 13483866.370000
+ApplySpecProp spname 1000341 target 183512235.120000
+ApplySpecProp spname 1000340 target 195226399.790000
+ApplySpecProp spname 1000339 target 14774807.270000
+ApplySpecProp spname 1000338 target 8100427.240000
+ApplySpecProp spname 1000337 target 56667015.280000
+ApplySpecProp spname 1000336 target 16855013.120000
+ApplySpecProp spname 1000335 target 172121325.960000
+ApplySpecProp spname 1000334 target 65489995.220000
+ApplySpecProp spname 1000333 target 209801115.020000
+ApplySpecProp spname 1000332 target 96551707.910000
+ApplySpecProp spname 1000331 target 2415072.870000
+ApplySpecProp spname 1000328 target 167002722.180000
+ApplySpecProp spname 1000327 target 114093057.440000
+ApplySpecProp spname 1000326 target 269291736.290000
+ApplySpecProp spname 1000325 target 34489584.360000
+ApplySpecProp spname 1000324 target 18423939.040000
+ApplySpecProp spname 1000323 target 58005324.300000
+ApplySpecProp spname 1000322 target 7098417.660000
+ApplySpecProp spname 1000321 target 97967348.570000
+ApplySpecProp spname 1000320 target 17546220.880000
+ApplySpecProp spname 1000319 target 1321799.640000
+ApplySpecProp spname 1000318 target 118908450.410000
+ApplySpecProp spname 1000317 target 12985841.000000
+ApplySpecProp spname 1000316 target 171824344.970000
+ApplySpecProp spname 1000315 target 27709865.700000
+ApplySpecProp spname 1000314 target 883100.870000
+ApplySpecProp spname 1000309 target 176968958.240000
+ApplySpecProp spname 1000308 target 6039199.850000
+ApplySpecProp spname 1000307 target 1476888.940000
+ApplySpecProp spname 1000306 target 3012251.250000
+ApplySpecProp spname 1000305 target 119815394.970000
+ApplySpecProp spname 1000303 target 5335152.840000
+ApplySpecProp spname 1000302 target 117340650.740000
+ApplySpecProp spname 1000301 target 9270999.470000
+ApplySpecProp spname 1000111 target 3981312.500000
+ApplySpecProp spname 1000110 target 9967.500000
+ApplySpecProp spname 1000109 target 5772522.500000
+ApplySpecProp spname 1000108 target 1177787.000000
+ApplySpecProp spname 1000107 target 1225393.500000
+ApplySpecProp spname 1000106 target 572178.000000
+ApplySpecProp spname 1000104 target 742384.500000
+ApplySpecProp spname 1000103 target 388664.100000
+ApplySpecProp spname 1000102 target 471114.600000
+ApplySpecProp spname 1000101 target 17390847.900000
+ApplySpecProp spname 1000098 target 12203864.100000
+ApplySpecProp spname 1000093 target 1420151.100000
+ApplySpecProp spname 1000092 target 1099267.400000
+ApplySpecProp spname 1000078 target 710342.500000
+ApplySpecProp spname 1000060 target 6494836.800000
+ApplySpecProp spname 1000055 target 0.000000
+ApplySpecProp spname 1000055 target 16778577.000000
+ApplySpecProp spname 1000054 target 9699687.900000
+ApplySpecProp spname 1000051 target 764614467.000000
+ApplySpecProp spname 1000045 target 2464670.500000
+ApplySpecProp spname 1000042 target 5876063.500000
+ApplySpecProp spname 1000041 target 227457.000000
+ApplySpecProp spname 1000040 target 2355573.000000
+ApplySpecProp spname 1000029 target 21071160.000000
+ApplySpecProp spname 1000028 target 844662504.000000
+ApplySpecProp spname 1000027 target 69920624.500000
+ApplySpecProp spname 1000026 target 1953298.500000
+ApplySpecProp spname 1000025 target 488807.500000
+ApplySpecProp spname 1000024 target 1276430.400000
+ApplySpecProp spname 1000023 target 12553831.800000
+ApplySpecProp spname 1000022 target 423005.400000
+ApplySpecProp spname 1000014 target 4795989.300000
+ApplySpecProp spname 4673 target 456578.600000
+ApplySpecProp spname 4672 target 6283155.600000
+ApplySpecProp spname 4671 target 2701846.600000
+ApplySpecProp spname 4670 target 1453054.800000
+ApplySpecProp spname 4657 target 314005.400000
+ApplySpecProp spname 4656 target 51239.800000
+ApplySpecProp spname 4655 target 91333.400000
+ApplySpecProp spname 4644 target 31150.300000
+ApplySpecProp spname 4643 target 2749575.700000
+ApplySpecProp spname 4642 target 1249788.500000
+ApplySpecProp spname 4641 target 126597.600000
+ApplySpecProp spname 4640 target 90396.000000
+ApplySpecProp spname 4639 target 2698.600000
+ApplySpecProp spname 4638 target 4584.300000
+ApplySpecProp spname 4637 target 208288.300000
+ApplySpecProp spname 4635 target 4232.000000
+ApplySpecProp spname 4634 target 377611.300000
+ApplySpecProp spname 4633 target 24529.500000
+ApplySpecProp spname 4629 target 134011.500000
+ApplySpecProp spname 4626 target 44041.700000
+ApplySpecProp spname 4625 target 815591.500000
+ApplySpecProp spname 4624 target 289020.100000
+ApplySpecProp spname 4622 target 131038.700000
+ApplySpecProp spname 4619 target 2701846.600000
+ApplySpecProp spname 4618 target 233751.400000
+ApplySpecProp spname 4616 target 756735.700000
+ApplySpecProp spname 4615 target 134398.000000
+ApplySpecProp spname 4614 target 9080.500000
+ApplySpecProp spname 4612 target 47166.900000
+ApplySpecProp spname 4610 target 77877.000000
+ApplySpecProp spname 4608 target 22185.300000
+ApplySpecProp spname 4601 target 171860.000000
+ApplySpecProp spname 3673 target 133354.600000
+ApplySpecProp spname 3672 target 6568302.800000
+ApplySpecProp spname 3671 target 1381096.100000
+ApplySpecProp spname 3670 target 483526.800000
+ApplySpecProp spname 3658 target 14947.200000
+ApplySpecProp spname 3656 target 22691.000000
+ApplySpecProp spname 3649 target 67172.600000
+ApplySpecProp spname 3647 target 28543.800000
+ApplySpecProp spname 3643 target 864248.000000
+ApplySpecProp spname 3642 target 659453.100000
+ApplySpecProp spname 3641 target 18099.000000
+ApplySpecProp spname 3638 target 85290.000000
+ApplySpecProp spname 3637 target 363225.200000
+ApplySpecProp spname 3635 target 2813531.200000
+ApplySpecProp spname 3634 target 491361.100000
+ApplySpecProp spname 3633 target 602497.100000
+ApplySpecProp spname 3629 target 43311.200000
+ApplySpecProp spname 3626 target 59981.300000
+ApplySpecProp spname 3625 target 366105.200000
+ApplySpecProp spname 3623 target 191653.800000
+ApplySpecProp spname 3622 target 9546.600000
+ApplySpecProp spname 3621 target 1263769.100000
+ApplySpecProp spname 3620 target 117327.000000
+ApplySpecProp spname 3617 target 13509.100000
+ApplySpecProp spname 3616 target 140580.400000
+ApplySpecProp spname 3615 target 23863.300000
+ApplySpecProp spname 3612 target 16929.500000
+ApplySpecProp spname 3610 target 114649.400000
+ApplySpecProp spname 3608 target 70698.800000
+ApplySpecProp spname 3602 target 78714.400000
+ApplySpecProp spname 3601 target 24581.900000
+ApplySpecProp spname 2673 target 5237072.600000
+ApplySpecProp spname 2672 target 19171544.400000
+ApplySpecProp spname 2671 target 4532147.000000
+ApplySpecProp spname 2670 target 10599149.500000
+ApplySpecProp spname 2658 target 701955.500000
+ApplySpecProp spname 2657 target 1601218.100000
+ApplySpecProp spname 2656 target 154465.200000
+ApplySpecProp spname 2655 target 619964.200000
+ApplySpecProp spname 2654 target 23040.800000
+ApplySpecProp spname 2651 target 108498.700000
+ApplySpecProp spname 2650 target 110250.300000
+ApplySpecProp spname 2649 target 1194088.800000
+ApplySpecProp spname 2648 target 44892.400000
+ApplySpecProp spname 2647 target 65116.800000
+ApplySpecProp spname 2646 target 282214.800000
+ApplySpecProp spname 2645 target 331367.000000
+ApplySpecProp spname 2638 target 377530.500000
+ApplySpecProp spname 2637 target 351703.100000
+ApplySpecProp spname 2635 target 1888853.600000
+ApplySpecProp spname 2634 target 8380464.900000
+ApplySpecProp spname 2633 target 1337208.100000
+ApplySpecProp spname 2632 target 159900.200000
+ApplySpecProp spname 2631 target 507504.000000
+ApplySpecProp spname 2629 target 4458449.200000
+ApplySpecProp spname 2628 target 5209.600000
+ApplySpecProp spname 2627 target 1704721.200000
+ApplySpecProp spname 2621 target 185182.700000
+ApplySpecProp spname 2619 target 4346964.300000
+ApplySpecProp spname 2618 target 119511.600000
+ApplySpecProp spname 2616 target 153618.400000
+ApplySpecProp spname 2615 target 84175.000000
+ApplySpecProp spname 2614 target 3776.400000
+ApplySpecProp spname 2612 target 1684545.400000
+ApplySpecProp spname 2610 target 4727063.700000
+ApplySpecProp spname 2609 target 97090.400000
+ApplySpecProp spname 2608 target 730935.400000
+ApplySpecProp spname 2607 target 632447.100000
+ApplySpecProp spname 2606 target 1052758.600000
+ApplySpecProp spname 2605 target 14026.200000
+ApplySpecProp spname 2603 target 104558.900000
+ApplySpecProp spname 2601 target 424731.200000
+ApplySpecProp spname 2600 target 770630.200000
+ApplySpecProp spname 1673 target 1103396.900000
+ApplySpecProp spname 1672 target 5753685.300000
+ApplySpecProp spname 1670 target 6245158.500000
+ApplySpecProp spname 1658 target 511973.700000
+ApplySpecProp spname 1657 target 288554.700000
+ApplySpecProp spname 1655 target 247893.400000
+ApplySpecProp spname 1653 target 6481.400000
+ApplySpecProp spname 1652 target 48493.700000
+ApplySpecProp spname 1643 target 125248.300000
+ApplySpecProp spname 1637 target 529330.600000
+ApplySpecProp spname 1636 target 69000.200000
+ApplySpecProp spname 1635 target 194598.100000
+ApplySpecProp spname 1634 target 3286180.600000
+ApplySpecProp spname 1632 target 398307.100000
+ApplySpecProp spname 1630 target 28340.300000
+ApplySpecProp spname 1629 target 1000769.700000
+ApplySpecProp spname 1626 target 32659.400000
+ApplySpecProp spname 1625 target 89251.000000
+ApplySpecProp spname 1618 target 506806.500000
+ApplySpecProp spname 1613 target 1164764.900000
+ApplySpecProp spname 1612 target 944674.700000
+ApplySpecProp spname 1611 target 102844.900000
+ApplySpecProp spname 1610 target 2547467.500000
+ApplySpecProp spname 1608 target 220567.100000
+ApplySpecProp spname 1605 target 82952.800000
+ApplySpecProp spname 1604 target 479595.900000
+ApplySpecProp spname 1603 target 40032.300000
+ApplySpecProp spname 1601 target 155451.900000
+after ApplySpecProp
+before OutputScenario
+after OutputScenario
+before CalcPenalties
+CalcPenalties spname 2000968 penalty 0.005 target 8.96802e+006
+CalcPenalties spname 2000967 penalty 2.84596 target 2.28607e+007
+CalcPenalties spname 2000966 penalty 0.002 target 731769
+CalcPenalties spname 2000965 penalty 0
+CalcPenalties spname 2000964 penalty 0.006 target 1.01188e+007
+CalcPenalties spname 2000961 penalty 0.052 target 9.49178e+007
+CalcPenalties spname 2000960 penalty 0.003 target 2.73117e+006
+CalcPenalties spname 2000957 penalty 0.011 target 1.51423e+007
+CalcPenalties spname 2000955 penalty 0.032 target 5.56233e+007
+CalcPenalties spname 2000953 penalty 0.014 target 2.74128e+007
+CalcPenalties spname 2000952 penalty 0.003 target 3.88365e+006
+CalcPenalties spname 2000947 penalty 2.57801 target 2.4485e+007
+CalcPenalties spname 2000944 penalty 18.8014 target 1.23721e+006
+CalcPenalties spname 2000941 penalty 0
+CalcPenalties spname 2000940 penalty 26.4939 target 4.95699e+006
+CalcPenalties spname 2000938 penalty 133.113 target 4.57695e+007
+CalcPenalties spname 2000937 penalty 0.008 target 3.49412e+006
+CalcPenalties spname 2000936 penalty 0.013 target 2.21345e+007
+CalcPenalties spname 2000935 penalty 0.001 target 573343
+CalcPenalties spname 2000934 penalty 23.3806 target 1.07005e+007
+CalcPenalties spname 2000933 penalty 0.003 target 462012
+CalcPenalties spname 2000931 penalty 1.49606 target 568293
+CalcPenalties spname 2000928 penalty 0.015 target 2.84487e+007
+CalcPenalties spname 2000926 penalty 0.021 target 4.11971e+007
+CalcPenalties spname 2000925 penalty 0.003 target 4.63727e+006
+CalcPenalties spname 2000923 penalty 0.079 target 1.55168e+008
+CalcPenalties spname 2000920 penalty 0.155 target 3.08178e+008
+CalcPenalties spname 2000919 penalty 21.7551 target 2.83405e+006
+CalcPenalties spname 2000918 penalty 0.047 target 9.37039e+007
+CalcPenalties spname 2000917 penalty 3.97529 target 1.55153e+008
+CalcPenalties spname 2000915 penalty 1.635 target 3.26933e+009
+CalcPenalties spname 2000914 penalty 15.0543 target 1.18446e+008
+CalcPenalties spname 2000913 penalty 0.128 target 1.81585e+008
+CalcPenalties spname 2000911 penalty 0
+CalcPenalties spname 2000905 penalty 0.003 target 1.50809e+006
+CalcPenalties spname 2000904 penalty 0
+CalcPenalties spname 2000896 penalty 4.00885 target 1.96177e+007
+CalcPenalties spname 2000894 penalty 10.0106 target 4.92211e+007
+CalcPenalties spname 2000892 penalty 86.1301 target 6.68709e+008
+CalcPenalties spname 2000891 penalty 23.4645 target 3.47504e+007
+CalcPenalties spname 2000890 penalty 8.8641 target 2.70623e+007
+CalcPenalties spname 2000879 penalty 7.59687 target 1.72351e+006
+CalcPenalties spname 2000877 penalty 0
+CalcPenalties spname 2000866 penalty 16.9405 target 3.11533e+006
+CalcPenalties spname 2000863 penalty 149.206 target 4.66366e+007
+CalcPenalties spname 2000861 penalty 543.672 target 3.65188e+008
+CalcPenalties spname 2000860 penalty 0.242549 target 1.07603e+007
+CalcPenalties spname 2000859 penalty 110.005 target 3.2893e+007
+CalcPenalties spname 2000857 penalty 0
+CalcPenalties spname 2000851 penalty 0.003 target 90508.7
+CalcPenalties spname 2000850 penalty 0.003 target 933538
+CalcPenalties spname 2000849 penalty 0.002 target 299824
+CalcPenalties spname 2000848 penalty 0
+CalcPenalties spname 2000847 penalty 0
+CalcPenalties spname 2000844 penalty 3.54261 target 356893
+CalcPenalties spname 2000843 penalty 0.003 target 67046.6
+CalcPenalties spname 2000840 penalty 0.002 target 21054.2
+CalcPenalties spname 2000838 penalty 4.15276 target 111377
+CalcPenalties spname 2000836 penalty 9.69035 target 52423.6
+CalcPenalties spname 2000830 penalty 69.7621 target 532972
+CalcPenalties spname 2000824 penalty 0
+CalcPenalties spname 2000823 penalty 9.34558 target 2685.32
+CalcPenalties spname 2000821 penalty 40.4495 target 220383
+CalcPenalties spname 2000820 penalty 0
+CalcPenalties spname 2000819 penalty 0.005 target 128946
+CalcPenalties spname 2000818 penalty 0.002 target 1.61587e+006
+CalcPenalties spname 2000817 penalty 0.735113 target 188816
+CalcPenalties spname 2000816 penalty 17.5545 target 2.34609e+006
+CalcPenalties spname 2000815 penalty 0.002 target 12411.4
+CalcPenalties spname 2000810 penalty 0.002 target 57206.7
+CalcPenalties spname 2000808 penalty 0.002 target 299606
+CalcPenalties spname 2000807 penalty 0.001 target 9278.26
+CalcPenalties spname 2000805 penalty 0.004 target 246788
+CalcPenalties spname 2000802 penalty 0.002 target 111908
+CalcPenalties spname 2000801 penalty 28.2287 target 18446.4
+CalcPenalties spname 2000800 penalty 0.001 target 14156.9
+CalcPenalties spname 2000799 penalty 60.3919 target 4.68303e+006
+CalcPenalties spname 2000797 penalty 18.545 target 5.89835e+007
+CalcPenalties spname 2000796 penalty 27.6728 target 1.68053e+007
+CalcPenalties spname 2000795 penalty 90.8166 target 1.18366e+006
+CalcPenalties spname 2000793 penalty 0
+CalcPenalties spname 2000792 penalty 0
+CalcPenalties spname 2000791 penalty 0
+CalcPenalties spname 2000784 penalty 0
+CalcPenalties spname 2000782 penalty 0
+CalcPenalties spname 2000781 penalty 0
+CalcPenalties spname 2000774 penalty 0
+CalcPenalties spname 2000767 penalty 0
+CalcPenalties spname 2000766 penalty 0
+CalcPenalties spname 2000764 penalty 0
+CalcPenalties spname 2000763 penalty 0
+CalcPenalties spname 2000762 penalty 0
+CalcPenalties spname 2000760 penalty 0
+CalcPenalties spname 2000759 penalty 0
+CalcPenalties spname 2000758 penalty 0
+CalcPenalties spname 2000757 penalty 0
+CalcPenalties spname 2000756 penalty 0
+CalcPenalties spname 2000753 penalty 0
+CalcPenalties spname 2000752 penalty 0
+CalcPenalties spname 2000749 penalty 0
+CalcPenalties spname 2000747 penalty 0
+CalcPenalties spname 2000745 penalty 0
+CalcPenalties spname 2000744 penalty 0
+CalcPenalties spname 2000739 penalty 0
+CalcPenalties spname 2000736 penalty 0
+CalcPenalties spname 2000733 penalty 0
+CalcPenalties spname 2000732 penalty 0
+CalcPenalties spname 2000730 penalty 0
+CalcPenalties spname 2000729 penalty 0
+CalcPenalties spname 2000728 penalty 0
+CalcPenalties spname 2000727 penalty 0
+CalcPenalties spname 2000726 penalty 0
+CalcPenalties spname 2000725 penalty 0
+CalcPenalties spname 2000724 penalty 0
+CalcPenalties spname 2000722 penalty 0
+CalcPenalties spname 2000719 penalty 0
+CalcPenalties spname 2000717 penalty 0
+CalcPenalties spname 2000716 penalty 0
+CalcPenalties spname 2000714 penalty 0
+CalcPenalties spname 2000711 penalty 0
+CalcPenalties spname 2000710 penalty 0
+CalcPenalties spname 2000709 penalty 0
+CalcPenalties spname 2000708 penalty 0
+CalcPenalties spname 2000706 penalty 0
+CalcPenalties spname 2000705 penalty 0
+CalcPenalties spname 2000704 penalty 0
+CalcPenalties spname 2000702 penalty 0
+CalcPenalties spname 2000701 penalty 0
+CalcPenalties spname 2000500 penalty 0.435 target 8.69877e+008
+CalcPenalties spname 2000404 penalty 0.097 target 1.90757e+008
+CalcPenalties spname 2000403 penalty 0.035 target 6.80953e+007
+CalcPenalties spname 2000345 penalty 0.024 target 4.74164e+007
+CalcPenalties spname 2000344 penalty 0.02 target 3.77691e+007
+CalcPenalties spname 2000343 penalty 0.018 target 3.48007e+007
+CalcPenalties spname 2000342 penalty 0.002 target 2.44211e+006
+CalcPenalties spname 2000341 penalty 0.1 target 1.98988e+008
+CalcPenalties spname 2000340 penalty 0.045 target 8.89353e+007
+CalcPenalties spname 2000339 penalty 0.025 target 4.10611e+007
+CalcPenalties spname 2000337 penalty 0.005 target 8.31953e+006
+CalcPenalties spname 2000336 penalty 0.002 target 2.27959e+006
+CalcPenalties spname 2000335 penalty 0.014 target 2.68054e+007
+CalcPenalties spname 2000334 penalty 0.005 target 8.10375e+006
+CalcPenalties spname 2000333 penalty 0.023 target 4.57012e+007
+CalcPenalties spname 2000332 penalty 0.013 target 2.52414e+007
+CalcPenalties spname 2000330 penalty 0.005 target 9.54845e+006
+CalcPenalties spname 2000329 penalty 0.002 target 22761.8
+CalcPenalties spname 2000328 penalty 0.208 target 4.146e+008
+CalcPenalties spname 2000327 penalty 0.166 target 2.32017e+008
+CalcPenalties spname 2000326 penalty 0.217 target 4.32876e+008
+CalcPenalties spname 2000325 penalty 0.023 target 4.10106e+007
+CalcPenalties spname 2000324 penalty 39.7403 target 5.42794e+007
+CalcPenalties spname 2000323 penalty 0.101 target 2.0156e+008
+CalcPenalties spname 2000322 penalty 0.08 target 1.5988e+008
+CalcPenalties spname 2000321 penalty 0.023 target 4.43568e+007
+CalcPenalties spname 2000320 penalty 14.2506 target 3.84056e+006
+CalcPenalties spname 2000319 penalty 27.0677 target 7.4716e+006
+CalcPenalties spname 2000318 penalty 0.09 target 1.79486e+008
+CalcPenalties spname 2000317 penalty 0.142 target 2.82114e+008
+CalcPenalties spname 2000316 penalty 0.023 target 4.41222e+007
+CalcPenalties spname 2000315 penalty 1.16065 target 5.36273e+006
+CalcPenalties spname 2000314 penalty 0.023 target 4.43223e+007
+CalcPenalties spname 2000313 penalty 0.002 target 2.90621e+006
+CalcPenalties spname 2000312 penalty 0.001 target 605479
+CalcPenalties spname 2000311 penalty 0.005 target 8.12519e+006
+CalcPenalties spname 2000309 penalty 0.109 target 2.16592e+008
+CalcPenalties spname 2000307 penalty 27.6663 target 2.82984e+007
+CalcPenalties spname 2000306 penalty 0.001 target 1.14722e+006
+CalcPenalties spname 2000305 penalty 52.3146 target 2.63533e+008
+CalcPenalties spname 2000304 penalty 0.011 target 1.50873e+007
+CalcPenalties spname 2000302 penalty 0.094 target 1.85604e+008
+CalcPenalties spname 2000113 penalty 377.091 target 4.50411e+006
+CalcPenalties spname 2000111 penalty 7.06028 target 1.80292e+007
+CalcPenalties spname 2000110 penalty 64.4744 target 3.51961e+007
+CalcPenalties spname 2000109 penalty 10.8687 target 3.14076e+006
+CalcPenalties spname 2000108 penalty 34.6401 target 6.25279e+006
+CalcPenalties spname 2000107 penalty 39.4279 target 932481
+CalcPenalties spname 2000106 penalty 6.60338 target 2.56625e+006
+CalcPenalties spname 2000104 penalty 10.1879 target 6.89489e+006
+CalcPenalties spname 2000103 penalty 0.002 target 235557
+CalcPenalties spname 2000102 penalty 0.001 target 262936
+CalcPenalties spname 2000101 penalty 0
+CalcPenalties spname 2000098 penalty 32.9286 target 3.56511e+006
+CalcPenalties spname 2000096 penalty 0
+CalcPenalties spname 2000095 penalty 0.001 target 471115
+CalcPenalties spname 2000093 penalty 9.96273 target 2.67103e+006
+CalcPenalties spname 2000092 penalty 77.5728 target 2.72398e+006
+CalcPenalties spname 2000090 penalty 0
+CalcPenalties spname 2000089 penalty 0
+CalcPenalties spname 2000088 penalty 0
+CalcPenalties spname 2000086 penalty 0
+CalcPenalties spname 2000085 penalty 74.4209 target 187974
+CalcPenalties spname 2000082 penalty 0
+CalcPenalties spname 2000080 penalty 0
+CalcPenalties spname 2000079 penalty 0
+CalcPenalties spname 2000078 penalty 0.009 target 5.57118e+006
+CalcPenalties spname 2000077 penalty 0
+CalcPenalties spname 2000076 penalty 0
+CalcPenalties spname 2000075 penalty 0
+CalcPenalties spname 2000074 penalty 0
+CalcPenalties spname 2000073 penalty 0
+CalcPenalties spname 2000072 penalty 0
+CalcPenalties spname 2000071 penalty 0
+CalcPenalties spname 2000070 penalty 0
+CalcPenalties spname 2000068 penalty 0
+CalcPenalties spname 2000067 penalty 0
+CalcPenalties spname 2000065 penalty 0
+CalcPenalties spname 2000064 penalty 0
+CalcPenalties spname 2000063 penalty 0
+CalcPenalties spname 2000062 penalty 0
+CalcPenalties spname 2000060 penalty 0.075 target 1.4869e+008
+CalcPenalties spname 2000057 penalty 0
+CalcPenalties spname 2000056 penalty 0
+CalcPenalties spname 2000055 penalty 0
+CalcPenalties spname 2000055 penalty 0.049 target 9.64181e+007
+CalcPenalties spname 2000053 penalty 0
+CalcPenalties spname 2000052 penalty 0
+CalcPenalties spname 2000051 penalty 0.334 target 6.69125e+008
+CalcPenalties spname 2000050 penalty 0
+CalcPenalties spname 2000049 penalty 0
+CalcPenalties spname 2000048 penalty 0
+CalcPenalties spname 2000047 penalty 0
+CalcPenalties spname 2000046 penalty 0
+CalcPenalties spname 2000043 penalty 0.002 target 1.17779e+006
+CalcPenalties spname 2000042 penalty 42.8731 target 2.35557e+006
+CalcPenalties spname 2000041 penalty 55.1533 target 3.42239e+007
+CalcPenalties spname 2000040 penalty 47.2614 target 1.57038e+006
+CalcPenalties spname 2000039 penalty 0
+CalcPenalties spname 2000038 penalty 0
+CalcPenalties spname 2000037 penalty 0
+CalcPenalties spname 2000036 penalty 0
+CalcPenalties spname 2000035 penalty 0
+CalcPenalties spname 2000034 penalty 0
+CalcPenalties spname 2000033 penalty 0
+CalcPenalties spname 2000032 penalty 0
+CalcPenalties spname 2000031 penalty 0
+CalcPenalties spname 2000029 penalty 7.09994 target 8.55618e+006
+CalcPenalties spname 2000028 penalty 0.331 target 6.64077e+008
+CalcPenalties spname 2000027 penalty 56.2836 target 392596
+CalcPenalties spname 2000026 penalty 62.1532 target 4.92781e+006
+CalcPenalties spname 2000025 penalty 6.97735 target 671923
+CalcPenalties spname 2000024 penalty 63.7256 target 2.11334e+006
+CalcPenalties spname 2000023 penalty 10.1012 target 2.39956e+007
+CalcPenalties spname 2000022 penalty 8.44238 target 2.0386e+007
+CalcPenalties spname 2000021 penalty 0.002 target 392596
+CalcPenalties spname 2000016 penalty 0
+CalcPenalties spname 2000015 penalty 0
+CalcPenalties spname 2000014 penalty 41.8196 target 2.11998e+006
+CalcPenalties spname 2000013 penalty 0
+CalcPenalties spname 2000012 penalty 0
+CalcPenalties spname 2000010 penalty 0
+CalcPenalties spname 2000009 penalty 0
+CalcPenalties spname 2000008 penalty 0
+CalcPenalties spname 2000007 penalty 0
+CalcPenalties spname 2000006 penalty 0
+CalcPenalties spname 2000005 penalty 0
+CalcPenalties spname 2000004 penalty 0
+CalcPenalties spname 2000003 penalty 0
+CalcPenalties spname 2000002 penalty 0
+CalcPenalties spname 1000969 penalty 2.41916 target 9509.46
+CalcPenalties spname 1000967 penalty 0.003 target 3.83179e+006
+CalcPenalties spname 1000964 penalty 0
+CalcPenalties spname 1000961 penalty 0.985394 target 5.7929e+006
+CalcPenalties spname 1000960 penalty 16.2146 target 1.58758e+006
+CalcPenalties spname 1000953 penalty 0.005 target 8.7957e+006
+CalcPenalties spname 1000952 penalty 0.002 target 80063.2
+CalcPenalties spname 1000947 penalty 5.83114 target 3.09359e+007
+CalcPenalties spname 1000943 penalty 1.53625 target 860891
+CalcPenalties spname 1000940 penalty 10.6972 target 7.83523e+006
+CalcPenalties spname 1000938 penalty 1.02459 target 6.31055e+006
+CalcPenalties spname 1000937 penalty 0.509296 target 85893.9
+CalcPenalties spname 1000936 penalty 1.96079 target 695466
+CalcPenalties spname 1000935 penalty 90.3618 target 590996
+CalcPenalties spname 1000928 penalty 0.13 target 2.58842e+008
+CalcPenalties spname 1000926 penalty 0.067 target 1.32135e+008
+CalcPenalties spname 1000925 penalty 0.025 target 4.99263e+007
+CalcPenalties spname 1000923 penalty 0.248 target 4.93036e+008
+CalcPenalties spname 1000920 penalty 0.036 target 6.8333e+007
+CalcPenalties spname 1000918 penalty 14.5796 target 2.33472e+007
+CalcPenalties spname 1000917 penalty 0.043 target 5.78028e+007
+CalcPenalties spname 1000915 penalty 1.303 target 2.60498e+009
+CalcPenalties spname 1000914 penalty 0.009 target 1.78587e+007
+CalcPenalties spname 1000913 penalty 3.98194 target 4.98841e+007
+CalcPenalties spname 1000911 penalty 0
+CalcPenalties spname 1000892 penalty 39.5298 target 1.6137e+007
+CalcPenalties spname 1000890 penalty 3.01758 target 886229
+CalcPenalties spname 1000879 penalty 36.9091 target 1.04271e+006
+CalcPenalties spname 1000876 penalty 8.80445 target 2.15983e+006
+CalcPenalties spname 1000863 penalty 0.002 target 835001
+CalcPenalties spname 1000861 penalty 135.265 target 1.86245e+008
+CalcPenalties spname 1000859 penalty 28.6649 target 9.98421e+006
+CalcPenalties spname 1000850 penalty 0.001 target 609587
+CalcPenalties spname 1000848 penalty 0
+CalcPenalties spname 1000847 penalty 0
+CalcPenalties spname 1000844 penalty 0.980394 target 12463.7
+CalcPenalties spname 1000843 penalty 9.42397 target 343710
+CalcPenalties spname 1000830 penalty 74.8269 target 924852
+CalcPenalties spname 1000826 penalty 3.06951 target 125507
+CalcPenalties spname 1000823 penalty 10.1869 target 331837
+CalcPenalties spname 1000821 penalty 34.1684 target 41701.3
+CalcPenalties spname 1000820 penalty 0
+CalcPenalties spname 1000819 penalty 0.509296 target 20133.8
+CalcPenalties spname 1000818 penalty 0.490197 target 1217.88
+CalcPenalties spname 1000817 penalty 112.064 target 40528.7
+CalcPenalties spname 1000810 penalty 0.407948 target 303554
+CalcPenalties spname 1000808 penalty 0.001 target 52564.7
+CalcPenalties spname 1000807 penalty 0.004 target 79660.6
+CalcPenalties spname 1000805 penalty 0.0294648 target 862429
+CalcPenalties spname 1000802 penalty 0.005 target 449518
+CalcPenalties spname 1000800 penalty 1.24777 target 15232
+CalcPenalties spname 1000799 penalty 80.952 target 334832
+CalcPenalties spname 1000797 penalty 52.149 target 2.21411e+008
+CalcPenalties spname 1000796 penalty 0.001 target 2836.96
+CalcPenalties spname 1000795 penalty 15.1063 target 550240
+CalcPenalties spname 1000793 penalty 0
+CalcPenalties spname 1000792 penalty 0
+CalcPenalties spname 1000788 penalty 0
+CalcPenalties spname 1000787 penalty 0
+CalcPenalties spname 1000786 penalty 0
+CalcPenalties spname 1000784 penalty 0
+CalcPenalties spname 1000782 penalty 0
+CalcPenalties spname 1000781 penalty 0
+CalcPenalties spname 1000768 penalty 0
+CalcPenalties spname 1000766 penalty 0
+CalcPenalties spname 1000765 penalty 0
+CalcPenalties spname 1000759 penalty 0
+CalcPenalties spname 1000757 penalty 0
+CalcPenalties spname 1000756 penalty 0
+CalcPenalties spname 1000753 penalty 0
+CalcPenalties spname 1000752 penalty 0
+CalcPenalties spname 1000739 penalty 0
+CalcPenalties spname 1000735 penalty 0
+CalcPenalties spname 1000732 penalty 0
+CalcPenalties spname 1000730 penalty 0
+CalcPenalties spname 1000729 penalty 0
+CalcPenalties spname 1000728 penalty 0
+CalcPenalties spname 1000727 penalty 0
+CalcPenalties spname 1000726 penalty 0
+CalcPenalties spname 1000719 penalty 0
+CalcPenalties spname 1000717 penalty 0
+CalcPenalties spname 1000716 penalty 0
+CalcPenalties spname 1000714 penalty 0
+CalcPenalties spname 1000711 penalty 0
+CalcPenalties spname 1000709 penalty 0
+CalcPenalties spname 1000708 penalty 0
+CalcPenalties spname 1000706 penalty 0
+CalcPenalties spname 1000704 penalty 0
+CalcPenalties spname 1000702 penalty 0
+CalcPenalties spname 1000701 penalty 0
+CalcPenalties spname 1000500 penalty 0.278 target 5.54412e+008
+CalcPenalties spname 1000405 penalty 0.17 target 3.34331e+008
+CalcPenalties spname 1000404 penalty 12.1729 target 1.38796e+008
+CalcPenalties spname 1000403 penalty 0.814897 target 1.95541e+007
+CalcPenalties spname 1000402 penalty 0.044 target 8.76648e+007
+CalcPenalties spname 1000401 penalty 2.49843 target 2.67403e+008
+CalcPenalties spname 1000343 penalty 0.007 target 1.34839e+007
+CalcPenalties spname 1000341 penalty 0.092 target 1.83512e+008
+CalcPenalties spname 1000340 penalty 0.098 target 1.95226e+008
+CalcPenalties spname 1000339 penalty 0.008 target 1.47748e+007
+CalcPenalties spname 1000338 penalty 0.005 target 8.10043e+006
+CalcPenalties spname 1000337 penalty 0.029 target 5.6667e+007
+CalcPenalties spname 1000336 penalty 0.009 target 1.6855e+007
+CalcPenalties spname 1000335 penalty 0.087 target 1.72121e+008
+CalcPenalties spname 1000334 penalty 0.033 target 6.549e+007
+CalcPenalties spname 1000333 penalty 0.105 target 2.09801e+008
+CalcPenalties spname 1000332 penalty 0.049 target 9.65517e+007
+CalcPenalties spname 1000331 penalty 0.002 target 2.41507e+006
+CalcPenalties spname 1000328 penalty 0.089 target 1.67003e+008
+CalcPenalties spname 1000327 penalty 117.042 target 1.14093e+008
+CalcPenalties spname 1000326 penalty 0.135 target 2.69292e+008
+CalcPenalties spname 1000325 penalty 0.022 target 3.44896e+007
+CalcPenalties spname 1000324 penalty 280.864 target 1.84239e+007
+CalcPenalties spname 1000323 penalty 0.03 target 5.80053e+007
+CalcPenalties spname 1000322 penalty 0.985394 target 7.09842e+006
+CalcPenalties spname 1000321 penalty 0.051 target 9.79673e+007
+CalcPenalties spname 1000320 penalty 0.023 target 1.75462e+007
+CalcPenalties spname 1000319 penalty 6.64731 target 1.3218e+006
+CalcPenalties spname 1000318 penalty 0.062 target 1.18908e+008
+CalcPenalties spname 1000317 penalty 10.7072 target 1.29858e+007
+CalcPenalties spname 1000316 penalty 0.096 target 1.71824e+008
+CalcPenalties spname 1000315 penalty 0.02 target 2.77099e+007
+CalcPenalties spname 1000314 penalty 6.51899 target 883101
+CalcPenalties spname 1000309 penalty 0.089 target 1.76969e+008
+CalcPenalties spname 1000308 penalty 2.90499 target 6.0392e+006
+CalcPenalties spname 1000307 penalty 0.509296 target 1.47689e+006
+CalcPenalties spname 1000306 penalty 9.4538 target 3.01225e+006
+CalcPenalties spname 1000305 penalty 217.892 target 1.19815e+008
+CalcPenalties spname 1000303 penalty 0.003 target 5.33515e+006
+CalcPenalties spname 1000302 penalty 18.1127 target 1.17341e+008
+CalcPenalties spname 1000301 penalty 5.3717 target 9.271e+006
+CalcPenalties spname 1000111 penalty 34.0166 target 3.98131e+006
+CalcPenalties spname 1000110 penalty 1.3178 target 9967.5
+CalcPenalties spname 1000109 penalty 230.925 target 5.77252e+006
+CalcPenalties spname 1000108 penalty 1.53513 target 1.17779e+006
+CalcPenalties spname 1000107 penalty 3.24876 target 1.22539e+006
+CalcPenalties spname 1000106 penalty 11.2236 target 572178
+CalcPenalties spname 1000104 penalty 100.51 target 742385
+CalcPenalties spname 1000103 penalty 3.73696 target 388664
+CalcPenalties spname 1000102 penalty 15.3043 target 471115
+CalcPenalties spname 1000101 penalty 103.623 target 1.73908e+007
+CalcPenalties spname 1000098 penalty 1.15418 target 1.22039e+007
+CalcPenalties spname 1000096 penalty 0
+CalcPenalties spname 1000093 penalty 3.19583 target 1.42015e+006
+CalcPenalties spname 1000092 penalty 0.400948 target 1.09927e+006
+CalcPenalties spname 1000090 penalty 0
+CalcPenalties spname 1000089 penalty 0
+CalcPenalties spname 1000088 penalty 0
+CalcPenalties spname 1000086 penalty 0
+CalcPenalties spname 1000084 penalty 0
+CalcPenalties spname 1000082 penalty 0
+CalcPenalties spname 1000081 penalty 0
+CalcPenalties spname 1000080 penalty 0
+CalcPenalties spname 1000079 penalty 0
+CalcPenalties spname 1000078 penalty 0.0284648 target 710343
+CalcPenalties spname 1000077 penalty 0
+CalcPenalties spname 1000076 penalty 0
+CalcPenalties spname 1000075 penalty 0
+CalcPenalties spname 1000074 penalty 0
+CalcPenalties spname 1000073 penalty 0
+CalcPenalties spname 1000072 penalty 0
+CalcPenalties spname 1000071 penalty 0
+CalcPenalties spname 1000070 penalty 0
+CalcPenalties spname 1000068 penalty 0
+CalcPenalties spname 1000067 penalty 0
+CalcPenalties spname 1000065 penalty 0
+CalcPenalties spname 1000064 penalty 0
+CalcPenalties spname 1000063 penalty 0
+CalcPenalties spname 1000062 penalty 0
+CalcPenalties spname 1000061 penalty 0
+CalcPenalties spname 1000060 penalty 32.6077 target 6.49484e+006
+CalcPenalties spname 1000058 penalty 0
+CalcPenalties spname 1000057 penalty 0
+CalcPenalties spname 1000056 penalty 0
+CalcPenalties spname 1000055 penalty 0
+CalcPenalties spname 1000055 penalty 0.009 target 1.67786e+007
+CalcPenalties spname 1000054 penalty 1.66758 target 9.69969e+006
+CalcPenalties spname 1000053 penalty 0
+CalcPenalties spname 1000052 penalty 0
+CalcPenalties spname 1000051 penalty 0.383 target 7.64614e+008
+CalcPenalties spname 1000050 penalty 0
+CalcPenalties spname 1000049 penalty 0
+CalcPenalties spname 1000048 penalty 0
+CalcPenalties spname 1000047 penalty 0
+CalcPenalties spname 1000046 penalty 0
+CalcPenalties spname 1000045 penalty 70.7921 target 2.46467e+006
+CalcPenalties spname 1000042 penalty 131.137 target 5.87606e+006
+CalcPenalties spname 1000041 penalty 9.96947 target 227457
+CalcPenalties spname 1000040 penalty 36.9651 target 2.35557e+006
+CalcPenalties spname 1000038 penalty 0
+CalcPenalties spname 1000037 penalty 0
+CalcPenalties spname 1000036 penalty 0
+CalcPenalties spname 1000035 penalty 0
+CalcPenalties spname 1000034 penalty 0
+CalcPenalties spname 1000033 penalty 0
+CalcPenalties spname 1000032 penalty 0
+CalcPenalties spname 1000031 penalty 0
+CalcPenalties spname 1000029 penalty 0.011 target 2.10712e+007
+CalcPenalties spname 1000028 penalty 48.4948 target 8.44663e+008
+CalcPenalties spname 1000027 penalty 45.6277 target 6.99206e+007
+CalcPenalties spname 1000026 penalty 58.7239 target 1.9533e+006
+CalcPenalties spname 1000025 penalty 0.779676 target 488808
+CalcPenalties spname 1000024 penalty 25.4669 target 1.27643e+006
+CalcPenalties spname 1000023 penalty 148.622 target 1.25538e+007
+CalcPenalties spname 1000022 penalty 104.291 target 423005
+CalcPenalties spname 1000017 penalty 0
+CalcPenalties spname 1000016 penalty 0
+CalcPenalties spname 1000015 penalty 0
+CalcPenalties spname 1000014 penalty 275.225 target 4.79599e+006
+CalcPenalties spname 1000013 penalty 0
+CalcPenalties spname 1000012 penalty 0
+CalcPenalties spname 1000010 penalty 0
+CalcPenalties spname 1000009 penalty 0
+CalcPenalties spname 1000008 penalty 0
+CalcPenalties spname 1000007 penalty 0
+CalcPenalties spname 1000006 penalty 0
+CalcPenalties spname 1000005 penalty 0
+CalcPenalties spname 1000004 penalty 0
+CalcPenalties spname 1000003 penalty 0
+CalcPenalties spname 1000002 penalty 0
+CalcPenalties spname 1000001 penalty 0
+CalcPenalties spname 1000000 penalty 0
+CalcPenalties spname 4673 penalty 2.73746 target 456579
+CalcPenalties spname 4672 penalty 32.9316 target 6.28316e+006
+CalcPenalties spname 4671 penalty 19.506 target 2.70185e+006
+CalcPenalties spname 4670 penalty 0.379423 target 1.45305e+006
+CalcPenalties spname 4657 penalty 2.73746 target 314005
+CalcPenalties spname 4656 penalty 11.4846 target 51239.8
+CalcPenalties spname 4655 penalty 2.73746 target 91333.4
+CalcPenalties spname 4644 penalty 4.69825 target 31150.3
+CalcPenalties spname 4643 penalty 27.0093 target 2.74958e+006
+CalcPenalties spname 4642 penalty 5.37907 target 1.24979e+006
+CalcPenalties spname 4641 penalty 14.4109 target 126598
+CalcPenalties spname 4640 penalty 10.8353 target 90396
+CalcPenalties spname 4639 penalty 1.3178 target 2698.6
+CalcPenalties spname 4638 penalty 11.4846 target 4584.3
+CalcPenalties spname 4637 penalty 17.8699 target 208288
+CalcPenalties spname 4635 penalty 7.98321 target 4232
+CalcPenalties spname 4634 penalty 15.2407 target 377611
+CalcPenalties spname 4633 penalty 7.13014 target 24529.5
+CalcPenalties spname 4629 penalty 12.6051 target 134012
+CalcPenalties spname 4626 penalty 18.653 target 44041.7
+CalcPenalties spname 4625 penalty 18.653 target 815592
+CalcPenalties spname 4624 penalty 11.9876 target 289020
+CalcPenalties spname 4622 penalty 23.9178 target 131039
+CalcPenalties spname 4619 penalty 19.506 target 2.70185e+006
+CalcPenalties spname 4618 penalty 4.60376 target 233751
+CalcPenalties spname 4616 penalty 0.002 target 756736
+CalcPenalties spname 4615 penalty 0.002 target 134398
+CalcPenalties spname 4614 penalty 0.001 target 9080.5
+CalcPenalties spname 4612 penalty 8.03414 target 47166.9
+CalcPenalties spname 4610 penalty 4.67279 target 77877
+CalcPenalties spname 4608 penalty 14.8714 target 22185.3
+CalcPenalties spname 4601 penalty 11.5865 target 171860
+CalcPenalties spname 3673 penalty 31.971 target 133355
+CalcPenalties spname 3672 penalty 28.4924 target 6.5683e+006
+CalcPenalties spname 3671 penalty 26.2542 target 1.3811e+006
+CalcPenalties spname 3670 penalty 0.002 target 483527
+CalcPenalties spname 3658 penalty 31.971 target 14947.2
+CalcPenalties spname 3656 penalty 31.971 target 22691
+CalcPenalties spname 3649 penalty 31.971 target 67172.6
+CalcPenalties spname 3647 penalty 26.4961 target 28543.8
+CalcPenalties spname 3643 penalty 0.002 target 864248
+CalcPenalties spname 3642 penalty 0.004 target 659453
+CalcPenalties spname 3641 penalty 0.001 target 18099
+CalcPenalties spname 3638 penalty 45.9639 target 85290
+CalcPenalties spname 3637 penalty 11.2045 target 363225
+CalcPenalties spname 3635 penalty 48.9709 target 2.81353e+006
+CalcPenalties spname 3634 penalty 51.1142 target 491361
+CalcPenalties spname 3633 penalty 48.1476 target 602497
+CalcPenalties spname 3629 penalty 31.971 target 43311.2
+CalcPenalties spname 3626 penalty 8.54344 target 59981.3
+CalcPenalties spname 3625 penalty 8.54344 target 366105
+CalcPenalties spname 3623 penalty 8.54344 target 191654
+CalcPenalties spname 3622 penalty 8.54344 target 9546.6
+CalcPenalties spname 3621 penalty 26.2542 target 1.26377e+006
+CalcPenalties spname 3620 penalty 31.971 target 117327
+CalcPenalties spname 3617 penalty 0.002 target 13509.1
+CalcPenalties spname 3616 penalty 0.001 target 140580
+CalcPenalties spname 3615 penalty 10.7461 target 23863.3
+CalcPenalties spname 3612 penalty 50.5094 target 16929.5
+CalcPenalties spname 3610 penalty 26.025 target 114649
+CalcPenalties spname 3608 penalty 26.025 target 70698.8
+CalcPenalties spname 3602 penalty 16.1701 target 78714.4
+CalcPenalties spname 3601 penalty 31.971 target 24581.9
+CalcPenalties spname 2673 penalty 29.1739 target 5.23707e+006
+CalcPenalties spname 2672 penalty 26.7759 target 1.91715e+007
+CalcPenalties spname 2671 penalty 1.3369 target 4.53215e+006
+CalcPenalties spname 2670 penalty 0.008 target 1.05991e+007
+CalcPenalties spname 2658 penalty 0.002 target 701956
+CalcPenalties spname 2657 penalty 7.7453 target 1.60122e+006
+CalcPenalties spname 2656 penalty 0.297089 target 154465
+CalcPenalties spname 2655 penalty 0.003 target 619964
+CalcPenalties spname 2654 penalty 0.001 target 23040.8
+CalcPenalties spname 2651 penalty 31.7801 target 108499
+CalcPenalties spname 2650 penalty 7.07921 target 110250
+CalcPenalties spname 2649 penalty 0.003 target 1.19409e+006
+CalcPenalties spname 2648 penalty 18.532 target 44892.4
+CalcPenalties spname 2647 penalty 17.9272 target 65116.8
+CalcPenalties spname 2646 penalty 0.001 target 282215
+CalcPenalties spname 2645 penalty 29.1699 target 331367
+CalcPenalties spname 2638 penalty 0.445634 target 377531
+CalcPenalties spname 2637 penalty 7.6649 target 351703
+CalcPenalties spname 2635 penalty 35.5316 target 1.88885e+006
+CalcPenalties spname 2634 penalty 10.2431 target 8.38046e+006
+CalcPenalties spname 2633 penalty 20.224 target 1.33721e+006
+CalcPenalties spname 2632 penalty 3.69239 target 159900
+CalcPenalties spname 2631 penalty 17.698 target 507504
+CalcPenalties spname 2629 penalty 18.4368 target 4.45845e+006
+CalcPenalties spname 2628 penalty 24.8961 target 5209.6
+CalcPenalties spname 2627 penalty 17.8686 target 1.70472e+006
+CalcPenalties spname 2621 penalty 13.6873 target 185183
+CalcPenalties spname 2619 penalty 1.18836 target 4.34696e+006
+CalcPenalties spname 2618 penalty 0.001 target 119512
+CalcPenalties spname 2616 penalty 0.002 target 153618
+CalcPenalties spname 2615 penalty 0.001 target 84175
+CalcPenalties spname 2614 penalty 4.7704 target 3776.4
+CalcPenalties spname 2612 penalty 0.007 target 1.68455e+006
+CalcPenalties spname 2610 penalty 0.017 target 4.72706e+006
+CalcPenalties spname 2609 penalty 0.001 target 97090.4
+CalcPenalties spname 2608 penalty 0.005 target 730935
+CalcPenalties spname 2607 penalty 0.001 target 632447
+CalcPenalties spname 2606 penalty 0.001 target 1.05276e+006
+CalcPenalties spname 2605 penalty 0.001 target 14026.2
+CalcPenalties spname 2603 penalty 0.002 target 104559
+CalcPenalties spname 2601 penalty 0.003 target 424731
+CalcPenalties spname 2600 penalty 17.2227 target 770630
+CalcPenalties spname 1673 penalty 0.003 target 1.1034e+006
+CalcPenalties spname 1672 penalty 0.008 target 5.75369e+006
+CalcPenalties spname 1670 penalty 7.56704 target 6.24516e+006
+CalcPenalties spname 1658 penalty 0.002 target 511974
+CalcPenalties spname 1657 penalty 0.001 target 288555
+CalcPenalties spname 1655 penalty 0.001 target 247893
+CalcPenalties spname 1653 penalty 0.001 target 6481.4
+CalcPenalties spname 1652 penalty 2.35549 target 48493.7
+CalcPenalties spname 1643 penalty 28.9917 target 125248
+CalcPenalties spname 1637 penalty 0.002 target 529331
+CalcPenalties spname 1636 penalty 3.37508 target 69000.2
+CalcPenalties spname 1635 penalty 23.3385 target 194598
+CalcPenalties spname 1634 penalty 0.006 target 3.28618e+006
+CalcPenalties spname 1632 penalty 2.26637 target 398307
+CalcPenalties spname 1630 penalty 4.62186 target 28340.3
+CalcPenalties spname 1629 penalty 3.29769 target 1.00077e+006
+CalcPenalties spname 1626 penalty 2.35549 target 32659.4
+CalcPenalties spname 1625 penalty 2.35549 target 89251
+CalcPenalties spname 1618 penalty 0.002 target 506807
+CalcPenalties spname 1613 penalty 0.002 target 1.16476e+006
+CalcPenalties spname 1612 penalty 0.005 target 944675
+CalcPenalties spname 1611 penalty 0.002 target 102845
+CalcPenalties spname 1610 penalty 0.003 target 2.54747e+006
+CalcPenalties spname 1608 penalty 0.001 target 220567
+CalcPenalties spname 1605 penalty 0.001 target 82952.8
+CalcPenalties spname 1604 penalty 0.001 target 479596
+CalcPenalties spname 1603 penalty 6.26434 target 40032.3
+CalcPenalties spname 1601 penalty 16.9987 target 155452
+after CalcPenalties
+start run loop run -1815652032
+before ConnollyInit run 1
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 1
+before ReserveCost run 1
+after ReserveCost run 1
+before ThermalAnnealing run 1
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 1
+before IterativeImprovementOptimise run 1
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 1
+before file output run 1
+after file output run 1
+end run 1
+start run loop run -1815652032
+before ConnollyInit run 2
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 2
+before ReserveCost run 2
+after ReserveCost run 2
+before ThermalAnnealing run 2
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 2
+before IterativeImprovementOptimise run 2
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 2
+before file output run 2
+after file output run 2
+end run 2
+start run loop run -1815652032
+before ConnollyInit run 3
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 3
+before ReserveCost run 3
+after ReserveCost run 3
+before ThermalAnnealing run 3
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 3
+before IterativeImprovementOptimise run 3
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 3
+before file output run 3
+after file output run 3
+end run 3
+start run loop run -1815652032
+before ConnollyInit run 4
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 4
+before ReserveCost run 4
+after ReserveCost run 4
+before ThermalAnnealing run 4
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 4
+before IterativeImprovementOptimise run 4
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 4
+before file output run 4
+after file output run 4
+end run 4
+start run loop run -1815652032
+before ConnollyInit run 5
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 5
+before ReserveCost run 5
+after ReserveCost run 5
+before ThermalAnnealing run 5
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 5
+before IterativeImprovementOptimise run 5
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 5
+before file output run 5
+after file output run 5
+end run 5
+start run loop run -1815652032
+before ConnollyInit run 6
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 6
+before ReserveCost run 6
+after ReserveCost run 6
+before ThermalAnnealing run 6
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 6
+before IterativeImprovementOptimise run 6
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 6
+before file output run 6
+after file output run 6
+end run 6
+start run loop run -1815652032
+before ConnollyInit run 7
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 7
+before ReserveCost run 7
+after ReserveCost run 7
+before ThermalAnnealing run 7
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 7
+before IterativeImprovementOptimise run 7
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 7
+before file output run 7
+after file output run 7
+end run 7
+start run loop run -1815652032
+before ConnollyInit run 8
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 8
+before ReserveCost run 8
+after ReserveCost run 8
+before ThermalAnnealing run 8
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 8
+before IterativeImprovementOptimise run 8
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 8
+before file output run 8
+after file output run 8
+end run 8
+start run loop run -1815652032
+before ConnollyInit run 9
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 9
+before ReserveCost run 9
+after ReserveCost run 9
+before ThermalAnnealing run 9
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 9
+before IterativeImprovementOptimise run 9
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 9
+before file output run 9
+after file output run 9
+end run 9
+start run loop run -1815652032
+before ConnollyInit run 10
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 10
+before ReserveCost run 10
+after ReserveCost run 10
+before ThermalAnnealing run 10
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 10
+before IterativeImprovementOptimise run 10
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 10
+before file output run 10
+after file output run 10
+end run 10
+start run loop run -1815652032
+before ConnollyInit run 11
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 11
+before ReserveCost run 11
+after ReserveCost run 11
+before ThermalAnnealing run 11
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 11
+before IterativeImprovementOptimise run 11
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 11
+before file output run 11
+after file output run 11
+end run 11
+start run loop run -1815652032
+before ConnollyInit run 12
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 12
+before ReserveCost run 12
+after ReserveCost run 12
+before ThermalAnnealing run 12
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 12
+before IterativeImprovementOptimise run 12
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 12
+before file output run 12
+after file output run 12
+end run 12
+start run loop run -1815652032
+before ConnollyInit run 13
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 13
+before ReserveCost run 13
+after ReserveCost run 13
+before ThermalAnnealing run 13
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 13
+before IterativeImprovementOptimise run 13
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 13
+before file output run 13
+after file output run 13
+end run 13
+start run loop run -1815652032
+before ConnollyInit run 14
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 14
+before ReserveCost run 14
+after ReserveCost run 14
+before ThermalAnnealing run 14
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 14
+before IterativeImprovementOptimise run 14
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 14
+before file output run 14
+after file output run 14
+end run 14
+start run loop run -1815652032
+before ConnollyInit run 15
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 15
+before ReserveCost run 15
+after ReserveCost run 15
+before ThermalAnnealing run 15
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 15
+before IterativeImprovementOptimise run 15
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 15
+before file output run 15
+after file output run 15
+end run 15
+start run loop run -1815652032
+before ConnollyInit run 16
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 16
+before ReserveCost run 16
+after ReserveCost run 16
+before ThermalAnnealing run 16
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 16
+before IterativeImprovementOptimise run 16
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 16
+before file output run 16
+after file output run 16
+end run 16
+start run loop run -1815652032
+before ConnollyInit run 17
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 17
+before ReserveCost run 17
+after ReserveCost run 17
+before ThermalAnnealing run 17
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 17
+before IterativeImprovementOptimise run 17
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 17
+before file output run 17
+after file output run 17
+end run 17
+start run loop run -1815652032
+before ConnollyInit run 18
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 18
+before ReserveCost run 18
+after ReserveCost run 18
+before ThermalAnnealing run 18
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 18
+before IterativeImprovementOptimise run 18
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 18
+before file output run 18
+after file output run 18
+end run 18
+start run loop run -1815652032
+before ConnollyInit run 19
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 19
+before ReserveCost run 19
+after ReserveCost run 19
+before ThermalAnnealing run 19
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 19
+before IterativeImprovementOptimise run 19
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 19
+before file output run 19
+after file output run 19
+end run 19
+start run loop run -1815652032
+before ConnollyInit run 20
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 20
+before ReserveCost run 20
+after ReserveCost run 20
+before ThermalAnnealing run 20
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 20
+before IterativeImprovementOptimise run 20
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 20
+before file output run 20
+after file output run 20
+end run 20
+start run loop run -1815652032
+before ConnollyInit run 21
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 21
+before ReserveCost run 21
+after ReserveCost run 21
+before ThermalAnnealing run 21
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 21
+before IterativeImprovementOptimise run 21
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 21
+before file output run 21
+after file output run 21
+end run 21
+start run loop run -1815652032
+before ConnollyInit run 22
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 22
+before ReserveCost run 22
+after ReserveCost run 22
+before ThermalAnnealing run 22
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 22
+before IterativeImprovementOptimise run 22
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 22
+before file output run 22
+after file output run 22
+end run 22
+start run loop run -1815652032
+before ConnollyInit run 23
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 23
+before ReserveCost run 23
+after ReserveCost run 23
+before ThermalAnnealing run 23
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 23
+before IterativeImprovementOptimise run 23
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 23
+before file output run 23
+after file output run 23
+end run 23
+start run loop run -1815652032
+before ConnollyInit run 24
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 24
+before ReserveCost run 24
+after ReserveCost run 24
+before ThermalAnnealing run 24
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 24
+before IterativeImprovementOptimise run 24
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 24
+before file output run 24
+after file output run 24
+end run 24
+start run loop run -1815652032
+before ConnollyInit run 25
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 25
+before ReserveCost run 25
+after ReserveCost run 25
+before ThermalAnnealing run 25
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 25
+before IterativeImprovementOptimise run 25
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 25
+before file output run 25
+after file output run 25
+end run 25
+start run loop run -1815652032
+before ConnollyInit run 26
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 26
+before ReserveCost run 26
+after ReserveCost run 26
+before ThermalAnnealing run 26
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 26
+before IterativeImprovementOptimise run 26
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 26
+before file output run 26
+after file output run 26
+end run 26
+start run loop run -1815652032
+before ConnollyInit run 27
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 27
+before ReserveCost run 27
+after ReserveCost run 27
+before ThermalAnnealing run 27
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 27
+before IterativeImprovementOptimise run 27
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 27
+before file output run 27
+after file output run 27
+end run 27
+start run loop run -1815652032
+before ConnollyInit run 28
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 28
+before ReserveCost run 28
+after ReserveCost run 28
+before ThermalAnnealing run 28
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 28
+before IterativeImprovementOptimise run 28
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 28
+before file output run 28
+after file output run 28
+end run 28
+start run loop run -1815652032
+before ConnollyInit run 29
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 29
+before ReserveCost run 29
+after ReserveCost run 29
+before ThermalAnnealing run 29
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 29
+before IterativeImprovementOptimise run 29
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 29
+before file output run 29
+after file output run 29
+end run 29
+start run loop run -1815652032
+before ConnollyInit run 30
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 30
+before ReserveCost run 30
+after ReserveCost run 30
+before ThermalAnnealing run 30
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 30
+before IterativeImprovementOptimise run 30
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 30
+before file output run 30
+after file output run 30
+end run 30
+start run loop run -1815652032
+before ConnollyInit run 31
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 31
+before ReserveCost run 31
+after ReserveCost run 31
+before ThermalAnnealing run 31
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 31
+before IterativeImprovementOptimise run 31
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 31
+before file output run 31
+after file output run 31
+end run 31
+start run loop run -1815652032
+before ConnollyInit run 32
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 32
+before ReserveCost run 32
+after ReserveCost run 32
+before ThermalAnnealing run 32
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 32
+before IterativeImprovementOptimise run 32
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 32
+before file output run 32
+after file output run 32
+end run 32
+start run loop run -1815652032
+before ConnollyInit run 33
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 33
+before ReserveCost run 33
+after ReserveCost run 33
+before ThermalAnnealing run 33
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 33
+before IterativeImprovementOptimise run 33
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 33
+before file output run 33
+after file output run 33
+end run 33
+start run loop run -1815652032
+before ConnollyInit run 34
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 34
+before ReserveCost run 34
+after ReserveCost run 34
+before ThermalAnnealing run 34
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 34
+before IterativeImprovementOptimise run 34
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 34
+before file output run 34
+after file output run 34
+end run 34
+start run loop run -1815652032
+before ConnollyInit run 35
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 35
+before ReserveCost run 35
+after ReserveCost run 35
+before ThermalAnnealing run 35
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 35
+before IterativeImprovementOptimise run 35
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 35
+before file output run 35
+after file output run 35
+end run 35
+start run loop run -1815652032
+before ConnollyInit run 36
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 36
+before ReserveCost run 36
+after ReserveCost run 36
+before ThermalAnnealing run 36
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 36
+before IterativeImprovementOptimise run 36
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 36
+before file output run 36
+after file output run 36
+end run 36
+start run loop run -1815652032
+before ConnollyInit run 37
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 37
+before ReserveCost run 37
+after ReserveCost run 37
+before ThermalAnnealing run 37
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 37
+before IterativeImprovementOptimise run 37
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 37
+before file output run 37
+after file output run 37
+end run 37
+start run loop run -1815652032
+before ConnollyInit run 38
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 38
+before ReserveCost run 38
+after ReserveCost run 38
+before ThermalAnnealing run 38
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 38
+before IterativeImprovementOptimise run 38
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 38
+before file output run 38
+after file output run 38
+end run 38
+start run loop run -1815652032
+before ConnollyInit run 39
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 39
+before ReserveCost run 39
+after ReserveCost run 39
+before ThermalAnnealing run 39
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 39
+before IterativeImprovementOptimise run 39
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 39
+before file output run 39
+after file output run 39
+end run 39
+start run loop run -1815652032
+before ConnollyInit run 40
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 40
+before ReserveCost run 40
+after ReserveCost run 40
+before ThermalAnnealing run 40
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 40
+before IterativeImprovementOptimise run 40
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 40
+before file output run 40
+after file output run 40
+end run 40
+start run loop run -1815652032
+before ConnollyInit run 41
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 41
+before ReserveCost run 41
+after ReserveCost run 41
+before ThermalAnnealing run 41
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 41
+before IterativeImprovementOptimise run 41
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 41
+before file output run 41
+after file output run 41
+end run 41
+start run loop run -1815652032
+before ConnollyInit run 42
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 42
+before ReserveCost run 42
+after ReserveCost run 42
+before ThermalAnnealing run 42
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 42
+before IterativeImprovementOptimise run 42
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 42
+before file output run 42
+after file output run 42
+end run 42
+start run loop run -1815652032
+before ConnollyInit run 43
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 43
+before ReserveCost run 43
+after ReserveCost run 43
+before ThermalAnnealing run 43
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 43
+before IterativeImprovementOptimise run 43
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 43
+before file output run 43
+after file output run 43
+end run 43
+start run loop run -1815652032
+before ConnollyInit run 44
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 44
+before ReserveCost run 44
+after ReserveCost run 44
+before ThermalAnnealing run 44
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 44
+before IterativeImprovementOptimise run 44
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 44
+before file output run 44
+after file output run 44
+end run 44
+start run loop run -1815652032
+before ConnollyInit run 45
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 45
+before ReserveCost run 45
+after ReserveCost run 45
+before ThermalAnnealing run 45
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 45
+before IterativeImprovementOptimise run 45
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 45
+before file output run 45
+after file output run 45
+end run 45
+start run loop run -1815652032
+before ConnollyInit run 46
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 46
+before ReserveCost run 46
+after ReserveCost run 46
+before ThermalAnnealing run 46
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 46
+before IterativeImprovementOptimise run 46
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 46
+before file output run 46
+after file output run 46
+end run 46
+start run loop run -1815652032
+before ConnollyInit run 47
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 47
+before ReserveCost run 47
+after ReserveCost run 47
+before ThermalAnnealing run 47
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 47
+before IterativeImprovementOptimise run 47
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 47
+before file output run 47
+after file output run 47
+end run 47
+start run loop run -1815652032
+before ConnollyInit run 48
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 48
+before ReserveCost run 48
+after ReserveCost run 48
+before ThermalAnnealing run 48
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 48
+before IterativeImprovementOptimise run 48
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 48
+before file output run 48
+after file output run 48
+end run 48
+start run loop run -1815652032
+before ConnollyInit run 49
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 49
+before ReserveCost run 49
+after ReserveCost run 49
+before ThermalAnnealing run 49
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 49
+before IterativeImprovementOptimise run 49
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 49
+before file output run 49
+after file output run 49
+end run 49
+start run loop run -1815652032
+before ConnollyInit run 50
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 50
+before ReserveCost run 50
+after ReserveCost run 50
+before ThermalAnnealing run 50
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 50
+before IterativeImprovementOptimise run 50
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 50
+before file output run 50
+after file output run 50
+end run 50
+start run loop run -1815652032
+before ConnollyInit run 51
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 51
+before ReserveCost run 51
+after ReserveCost run 51
+before ThermalAnnealing run 51
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 51
+before IterativeImprovementOptimise run 51
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 51
+before file output run 51
+after file output run 51
+end run 51
+start run loop run -1815652032
+before ConnollyInit run 52
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 52
+before ReserveCost run 52
+after ReserveCost run 52
+before ThermalAnnealing run 52
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 52
+before IterativeImprovementOptimise run 52
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 52
+before file output run 52
+after file output run 52
+end run 52
+start run loop run -1815652032
+before ConnollyInit run 53
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 53
+before ReserveCost run 53
+after ReserveCost run 53
+before ThermalAnnealing run 53
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 53
+before IterativeImprovementOptimise run 53
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 53
+before file output run 53
+after file output run 53
+end run 53
+start run loop run -1815652032
+before ConnollyInit run 54
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 54
+before ReserveCost run 54
+after ReserveCost run 54
+before ThermalAnnealing run 54
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 54
+before IterativeImprovementOptimise run 54
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 54
+before file output run 54
+after file output run 54
+end run 54
+start run loop run -1815652032
+before ConnollyInit run 55
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 55
+before ReserveCost run 55
+after ReserveCost run 55
+before ThermalAnnealing run 55
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 55
+before IterativeImprovementOptimise run 55
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 55
+before file output run 55
+after file output run 55
+end run 55
+start run loop run -1815652032
+before ConnollyInit run 56
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 56
+before ReserveCost run 56
+after ReserveCost run 56
+before ThermalAnnealing run 56
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 56
+before IterativeImprovementOptimise run 56
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 56
+before file output run 56
+after file output run 56
+end run 56
+start run loop run -1815652032
+before ConnollyInit run 57
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 57
+before ReserveCost run 57
+after ReserveCost run 57
+before ThermalAnnealing run 57
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 57
+before IterativeImprovementOptimise run 57
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 57
+before file output run 57
+after file output run 57
+end run 57
+start run loop run -1815652032
+before ConnollyInit run 58
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 58
+before ReserveCost run 58
+after ReserveCost run 58
+before ThermalAnnealing run 58
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 58
+before IterativeImprovementOptimise run 58
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 58
+before file output run 58
+after file output run 58
+end run 58
+start run loop run -1815652032
+before ConnollyInit run 59
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 59
+before ReserveCost run 59
+after ReserveCost run 59
+before ThermalAnnealing run 59
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 59
+before IterativeImprovementOptimise run 59
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 59
+before file output run 59
+after file output run 59
+end run 59
+start run loop run -1815652032
+before ConnollyInit run 60
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 60
+before ReserveCost run 60
+after ReserveCost run 60
+before ThermalAnnealing run 60
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 60
+before IterativeImprovementOptimise run 60
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 60
+before file output run 60
+after file output run 60
+end run 60
+start run loop run -1815652032
+before ConnollyInit run 61
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 61
+before ReserveCost run 61
+after ReserveCost run 61
+before ThermalAnnealing run 61
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 61
+before IterativeImprovementOptimise run 61
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 61
+before file output run 61
+after file output run 61
+end run 61
+start run loop run -1815652032
+before ConnollyInit run 62
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 62
+before ReserveCost run 62
+after ReserveCost run 62
+before ThermalAnnealing run 62
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 62
+before IterativeImprovementOptimise run 62
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 62
+before file output run 62
+after file output run 62
+end run 62
+start run loop run -1815652032
+before ConnollyInit run 63
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 63
+before ReserveCost run 63
+after ReserveCost run 63
+before ThermalAnnealing run 63
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 63
+before IterativeImprovementOptimise run 63
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 63
+before file output run 63
+after file output run 63
+end run 63
+start run loop run -1815652032
+before ConnollyInit run 64
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 64
+before ReserveCost run 64
+after ReserveCost run 64
+before ThermalAnnealing run 64
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 64
+before IterativeImprovementOptimise run 64
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 64
+before file output run 64
+after file output run 64
+end run 64
+start run loop run -1815652032
+before ConnollyInit run 65
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 65
+before ReserveCost run 65
+after ReserveCost run 65
+before ThermalAnnealing run 65
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 65
+before IterativeImprovementOptimise run 65
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 65
+before file output run 65
+after file output run 65
+end run 65
+start run loop run -1815652032
+before ConnollyInit run 66
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 66
+before ReserveCost run 66
+after ReserveCost run 66
+before ThermalAnnealing run 66
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 66
+before IterativeImprovementOptimise run 66
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 66
+before file output run 66
+after file output run 66
+end run 66
+start run loop run -1815652032
+before ConnollyInit run 67
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 67
+before ReserveCost run 67
+after ReserveCost run 67
+before ThermalAnnealing run 67
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 67
+before IterativeImprovementOptimise run 67
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 67
+before file output run 67
+after file output run 67
+end run 67
+start run loop run -1815652032
+before ConnollyInit run 68
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 68
+before ReserveCost run 68
+after ReserveCost run 68
+before ThermalAnnealing run 68
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 68
+before IterativeImprovementOptimise run 68
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 68
+before file output run 68
+after file output run 68
+end run 68
+start run loop run -1815652032
+before ConnollyInit run 69
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 69
+before ReserveCost run 69
+after ReserveCost run 69
+before ThermalAnnealing run 69
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 69
+before IterativeImprovementOptimise run 69
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 69
+before file output run 69
+after file output run 69
+end run 69
+start run loop run -1815652032
+before ConnollyInit run 70
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 70
+before ReserveCost run 70
+after ReserveCost run 70
+before ThermalAnnealing run 70
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 70
+before IterativeImprovementOptimise run 70
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 70
+before file output run 70
+after file output run 70
+end run 70
+start run loop run -1815652032
+before ConnollyInit run 71
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 71
+before ReserveCost run 71
+after ReserveCost run 71
+before ThermalAnnealing run 71
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 71
+before IterativeImprovementOptimise run 71
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 71
+before file output run 71
+after file output run 71
+end run 71
+start run loop run -1815652032
+before ConnollyInit run 72
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 72
+before ReserveCost run 72
+after ReserveCost run 72
+before ThermalAnnealing run 72
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 72
+before IterativeImprovementOptimise run 72
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 72
+before file output run 72
+after file output run 72
+end run 72
+start run loop run -1815652032
+before ConnollyInit run 73
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 73
+before ReserveCost run 73
+after ReserveCost run 73
+before ThermalAnnealing run 73
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 73
+before IterativeImprovementOptimise run 73
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 73
+before file output run 73
+after file output run 73
+end run 73
+start run loop run -1815652032
+before ConnollyInit run 74
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 74
+before ReserveCost run 74
+after ReserveCost run 74
+before ThermalAnnealing run 74
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 74
+before IterativeImprovementOptimise run 74
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 74
+before file output run 74
+after file output run 74
+end run 74
+start run loop run -1815652032
+before ConnollyInit run 75
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 75
+before ReserveCost run 75
+after ReserveCost run 75
+before ThermalAnnealing run 75
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 75
+before IterativeImprovementOptimise run 75
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 75
+before file output run 75
+after file output run 75
+end run 75
+start run loop run -1815652032
+before ConnollyInit run 76
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 76
+before ReserveCost run 76
+after ReserveCost run 76
+before ThermalAnnealing run 76
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 76
+before IterativeImprovementOptimise run 76
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 76
+before file output run 76
+after file output run 76
+end run 76
+start run loop run -1815652032
+before ConnollyInit run 77
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 77
+before ReserveCost run 77
+after ReserveCost run 77
+before ThermalAnnealing run 77
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 77
+before IterativeImprovementOptimise run 77
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 77
+before file output run 77
+after file output run 77
+end run 77
+start run loop run -1815652032
+before ConnollyInit run 78
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 78
+before ReserveCost run 78
+after ReserveCost run 78
+before ThermalAnnealing run 78
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 78
+before IterativeImprovementOptimise run 78
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 78
+before file output run 78
+after file output run 78
+end run 78
+start run loop run -1815652032
+before ConnollyInit run 79
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 79
+before ReserveCost run 79
+after ReserveCost run 79
+before ThermalAnnealing run 79
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 79
+before IterativeImprovementOptimise run 79
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 79
+before file output run 79
+after file output run 79
+end run 79
+start run loop run -1815652032
+before ConnollyInit run 80
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 80
+before ReserveCost run 80
+after ReserveCost run 80
+before ThermalAnnealing run 80
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 80
+before IterativeImprovementOptimise run 80
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 80
+before file output run 80
+after file output run 80
+end run 80
+start run loop run -1815652032
+before ConnollyInit run 81
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 81
+before ReserveCost run 81
+after ReserveCost run 81
+before ThermalAnnealing run 81
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 81
+before IterativeImprovementOptimise run 81
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 81
+before file output run 81
+after file output run 81
+end run 81
+start run loop run -1815652032
+before ConnollyInit run 82
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 82
+before ReserveCost run 82
+after ReserveCost run 82
+before ThermalAnnealing run 82
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 82
+before IterativeImprovementOptimise run 82
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 82
+before file output run 82
+after file output run 82
+end run 82
+start run loop run -1815652032
+before ConnollyInit run 83
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 83
+before ReserveCost run 83
+after ReserveCost run 83
+before ThermalAnnealing run 83
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 83
+before IterativeImprovementOptimise run 83
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 83
+before file output run 83
+after file output run 83
+end run 83
+start run loop run -1815652032
+before ConnollyInit run 84
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 84
+before ReserveCost run 84
+after ReserveCost run 84
+before ThermalAnnealing run 84
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 84
+before IterativeImprovementOptimise run 84
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 84
+before file output run 84
+after file output run 84
+end run 84
+start run loop run -1815652032
+before ConnollyInit run 85
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 85
+before ReserveCost run 85
+after ReserveCost run 85
+before ThermalAnnealing run 85
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 85
+before IterativeImprovementOptimise run 85
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 85
+before file output run 85
+after file output run 85
+end run 85
+start run loop run -1815652032
+before ConnollyInit run 86
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 86
+before ReserveCost run 86
+after ReserveCost run 86
+before ThermalAnnealing run 86
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 86
+before IterativeImprovementOptimise run 86
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 86
+before file output run 86
+after file output run 86
+end run 86
+start run loop run -1815652032
+before ConnollyInit run 87
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 87
+before ReserveCost run 87
+after ReserveCost run 87
+before ThermalAnnealing run 87
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 87
+before IterativeImprovementOptimise run 87
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 87
+before file output run 87
+after file output run 87
+end run 87
+start run loop run -1815652032
+before ConnollyInit run 88
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 88
+before ReserveCost run 88
+after ReserveCost run 88
+before ThermalAnnealing run 88
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 88
+before IterativeImprovementOptimise run 88
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 88
+before file output run 88
+after file output run 88
+end run 88
+start run loop run -1815652032
+before ConnollyInit run 89
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 89
+before ReserveCost run 89
+after ReserveCost run 89
+before ThermalAnnealing run 89
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 89
+before IterativeImprovementOptimise run 89
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 89
+before file output run 89
+after file output run 89
+end run 89
+start run loop run -1815652032
+before ConnollyInit run 90
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 90
+before ReserveCost run 90
+after ReserveCost run 90
+before ThermalAnnealing run 90
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 90
+before IterativeImprovementOptimise run 90
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 90
+before file output run 90
+after file output run 90
+end run 90
+start run loop run -1815652032
+before ConnollyInit run 91
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 91
+before ReserveCost run 91
+after ReserveCost run 91
+before ThermalAnnealing run 91
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 91
+before IterativeImprovementOptimise run 91
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 91
+before file output run 91
+after file output run 91
+end run 91
+start run loop run -1815652032
+before ConnollyInit run 92
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 92
+before ReserveCost run 92
+after ReserveCost run 92
+before ThermalAnnealing run 92
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 92
+before IterativeImprovementOptimise run 92
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 92
+before file output run 92
+after file output run 92
+end run 92
+start run loop run -1815652032
+before ConnollyInit run 93
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 93
+before ReserveCost run 93
+after ReserveCost run 93
+before ThermalAnnealing run 93
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 93
+before IterativeImprovementOptimise run 93
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 93
+before file output run 93
+after file output run 93
+end run 93
+start run loop run -1815652032
+before ConnollyInit run 94
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 94
+before ReserveCost run 94
+after ReserveCost run 94
+before ThermalAnnealing run 94
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 94
+before IterativeImprovementOptimise run 94
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 94
+before file output run 94
+after file output run 94
+end run 94
+start run loop run -1815652032
+before ConnollyInit run 95
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 95
+before ReserveCost run 95
+after ReserveCost run 95
+before ThermalAnnealing run 95
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 95
+before IterativeImprovementOptimise run 95
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 95
+before file output run 95
+after file output run 95
+end run 95
+start run loop run -1815652032
+before ConnollyInit run 96
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 96
+before ReserveCost run 96
+after ReserveCost run 96
+before ThermalAnnealing run 96
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 96
+before IterativeImprovementOptimise run 96
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 96
+before file output run 96
+after file output run 96
+end run 96
+start run loop run -1815652032
+before ConnollyInit run 97
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 97
+before ReserveCost run 97
+after ReserveCost run 97
+before ThermalAnnealing run 97
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 97
+before IterativeImprovementOptimise run 97
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 97
+before file output run 97
+after file output run 97
+end run 97
+start run loop run -1815652032
+before ConnollyInit run 98
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 98
+before ReserveCost run 98
+after ReserveCost run 98
+before ThermalAnnealing run 98
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 98
+before IterativeImprovementOptimise run 98
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 98
+before file output run 98
+after file output run 98
+end run 98
+start run loop run -1815652032
+before ConnollyInit run 99
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 99
+before ReserveCost run 99
+after ReserveCost run 99
+before ThermalAnnealing run 99
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 99
+before IterativeImprovementOptimise run 99
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 99
+before file output run 99
+after file output run 99
+end run 99
+start run loop run -1815652032
+before ConnollyInit run 100
+ConnollyInit start
+ConnollyInit end
+after ConnollyInit run 100
+before ReserveCost run 100
+after ReserveCost run 100
+before ThermalAnnealing run 100
+ThermalAnnealing start iterations 100000000
+after ThermalAnnealing run 100
+before IterativeImprovementOptimise run 100
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 40701
+IterativeImprovementOptimise after array init
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end
+after IterativeImprovementOptimise run 100
+before file output run 100
+after file output run 100
+end run 100
+before final file output
+Best solution is run 95
+end final file output
+
+Marxan end execution
