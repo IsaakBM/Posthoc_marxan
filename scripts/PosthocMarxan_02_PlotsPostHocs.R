@@ -2,7 +2,7 @@
 library(ggplot2)
 library(dplyr)
 library(patchwork)
-
+library(inflection)
 
 
 rs_final <- read.csv("Iterations/PostHoc_Calibration.csv")
@@ -38,3 +38,32 @@ pf <- p1/p2 +
 
 pf <- set_last_plot(pf)
 ggsave('Iterations/iteration_6.pdf', pf, width = 15, height = 10)
+
+
+
+f=function(x){5+5*tanh(x-5)}
+x=seq(0,10,by=0.05)
+y=f(x)
+plot(x,y,cex=0.3,pch=19)
+grid()
+bb=ese(x,y,0);bb
+
+pese=bb[,3]
+
+abline(v=pese)
+cc=bese(x,y,0)
+cc$iplast
+
+
+x <- i8$perimeter_m
+y <- i8$new_cost
+plot(x,y,cex=0.3,pch=19)
+grid()
+bb=ese(x,y,0);bb
+
+pese=bb[,3]
+
+abline(v=pese)
+cc=bese(x,y,0)
+cc$iplast
+
