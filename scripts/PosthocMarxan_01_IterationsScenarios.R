@@ -51,7 +51,6 @@ posthoc_marxan <- function(path, outdir) {
                   name_outlog <- unlist(strsplit(name_outlog, " "))[5]
                 # Extract from the shapefile the object dt
                   dt2 <- dt_shp[dt_shp$id %in% dt$id,]
-                  head(dt2)
                   dt3 <- dt2 %>% dplyr::summarise(new_cost = sum(cost, do_union = TRUE))
                   dt_final <- dt3 %>% mutate(area = st_area(dt3), 
                                              perimeter = st_perimeter(dt3), 
