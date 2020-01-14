@@ -43,7 +43,7 @@ posthoc_marxan <- function(path, outdir) {
                 dt <- read.table(out_files[j], sep = ",", header = TRUE) # read every element from the out_files object
                 dt <- dt[(dt[,2] == 1),] %>% rename(id = names(dt[1]), solution = names(dt[2]))
                 # Marxan's solution names
-                  name <- unlist(strsplit(out_files[j], "_"))[2]
+                  name <- unlist(lapply(basename(out_files[j]), FUN = function(x) strsplit(x, "_")))[2]
                   name <- sub(pattern = "*.csv", "", name)
                 # Best solution find 
                   dt_outlog <- readLines(out_log)
@@ -55,8 +55,8 @@ posthoc_marxan <- function(path, outdir) {
                   dt_final <- dt3 %>% mutate(area = st_area(dt3), 
                                              perimeter = st_perimeter(dt3), 
                                              solution = name,
-                                             iteration = readr::parse_number(unlist(strsplit(folders[1], split = "/"))[[2]]),
-                                             scenario = readr::parse_number(unlist(strsplit(folders[1], split = "/"))[[3]]),
+                                             iteration = readr::parse_number(unlist(str_extract_all(folders[1], "Iterations\\d+"))),
+                                             scenario = readr::parse_number(unlist(str_extract_all(folders[1], "Scenario|scenario\\d+"))),
                                              best_solution = ifelse(as.character(readr::parse_number(name)) == name_outlog, "YES", "NO"))
                 # Fragmentation process
                   dt_final <- dt_final %>% mutate(per_circle = (sqrt(area/pi))*2*pi)
