@@ -7,7 +7,7 @@
 # path: 
 
 
-posthoc_marxan <- function(path, outdir) { 
+posthoc_marxan <- function(path, outdir, geo.proj) { 
   
   # List of pacakges that we will use
     list.of.packages <- c("raster", "sf", "dplyr", "tidyr", "readr", "lwgeom", "doParallel", "parallel", "stringr", "magrittr")
@@ -93,8 +93,8 @@ posthoc_marxan <- function(path, outdir) {
   
 }
 
-  system.time(posthoc_marxan(path = "Iterations",
-                             outdir = "Iterations/",
+  system.time(posthoc_marxan(path = "Iterationsvelocity",
+                             outdir = "Iterationsvelocity/",
                              geo.proj = "+proj=aea +lat_1=60 +lat_2=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"))
 
 
