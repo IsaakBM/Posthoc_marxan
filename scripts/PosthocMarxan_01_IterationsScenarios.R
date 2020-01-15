@@ -10,7 +10,7 @@
 posthoc_marxan <- function(path, outdir) { 
   
   # List of pacakges that we will use
-    list.of.packages <- c("raster", "sf", "dplyr", "tidyr", "readr", "lwgeom", "doParallel", "parallel")
+    list.of.packages <- c("raster", "sf", "dplyr", "tidyr", "readr", "lwgeom", "doParallel", "parallel", "stringr")
     # If is not installed, install the pacakge
       new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])] # is the package in MY list of packages?
       if(length(new.packages)) install.packages(new.packages) # if not -> install it
@@ -30,7 +30,7 @@ posthoc_marxan <- function(path, outdir) {
           out_log <- list.files(path = folders[2], pattern = "*_log.*.dat$", full.names = TRUE) 
           shp_files <- list.files(path = folders[3], pattern = "*.shp$", full.names = TRUE)
         # Read shapefile just one time 
-          dt_shp <- st_read(shp_files) %>% dplyr::select(id, cost, geometry) %>% arrange(id)
+          dt_shp <- st_read(shp_files) %>% dplyr::select(id, cost, geometry) %>% arrange(id) # add projection here and more general col names
         
         # Begin the parallel structure
           UseCores <- detectCores() -1
@@ -38,7 +38,7 @@ posthoc_marxan <- function(path, outdir) {
           registerDoParallel(cl)
           ls_geom <- list() # empty list to allocate results
           # A parallel structure to search the different solutions per iterations and calculates boundaries and perimeters 
-            geom_list <- foreach(j = 1:length(out_files), .packages = c("sf", "raster", "dplyr", "tidyr", "readr", "lwgeom")) %dopar% {
+            geom_list <- foreach(j = 1:length(out_files), .packages = c("sf", "raster", "dplyr", "tidyr", "readr", "lwgeom", "stringr")) %dopar% {
               # Read outfiles
                 dt <- read.table(out_files[j], sep = ",", header = TRUE) # read every element from the out_files object
                 dt <- dt[(dt[,2] == 1),] %>% rename(id = names(dt[1]), solution = names(dt[2]))
