@@ -55,8 +55,8 @@ posthoc_marxan <- function(path, outdir) {
                   dt_final <- dt3 %>% mutate(area = st_area(dt3), 
                                              perimeter = st_perimeter(dt3), 
                                              solution = name,
-                                             iteration = readr::parse_number(unlist(str_extract_all(folders[1], "Iterations\\d+"))),
-                                             scenario = readr::parse_number(unlist(str_extract_all(folders[1], "Scenario|scenario\\d+"))),
+                                             iteration = readr::parse_number(unlist(str_extract_all(folders[1], "(?i)iterations\\d+"))),
+                                             scenario = readr::parse_number(unlist(str_extract_all(folders[1], "(?i)scenario\\d+"))),
                                              best_solution = ifelse(as.character(readr::parse_number(name)) == name_outlog, "YES", "NO"))
                 # Fragmentation process
                   dt_final <- dt_final %>% mutate(per_circle = (sqrt(area/pi))*2*pi)
