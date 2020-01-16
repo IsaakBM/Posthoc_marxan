@@ -19,6 +19,7 @@ posthoc_marxan <- function(path, outdir, geo.proj) {
   
   # Define all the interation directories 
     dir.scenarios <- list.dirs(paste(list.dirs(path = path, full.names = TRUE, recursive = FALSE)), full.names = TRUE, recursive = FALSE)
+
   # Loop through every Iteration-scenario
     # To allocate iterations dataframes
       scenario_list <- list()
@@ -27,16 +28,16 @@ posthoc_marxan <- function(path, outdir, geo.proj) {
           folders <- list.dirs(dir.scenarios[i], full.names = TRUE, recursive = FALSE)
         # Files location
           out_files <- list.files(path = folders[2], pattern = "*_r.*.csv$", full.names = TRUE)
-          out_log <- list.files(path = folders[2], pattern = "*_log.*.dat$", full.names = TRUE) 
+          out_log <- list.files(path = folders[2], pattern = "*_log.*.dat$", full.names = TRUE)
           shp_files <- list.files(path = folders[3], pattern = "*.shp$", full.names = TRUE)
-        # Read shapefile just one time 
+        # Read shapefile just one time
           dt_shp <- st_read(shp_files) %>% st_transform(crs = geo.proj)
           var.names <- colnames(dt_shp)
           dt_shp <- dt_shp %>% 
             magrittr::set_colnames(ifelse(str_detect(var.names, "(?i).*id*"), "id", 
-                                ifelse(str_detect(var.names, "(?i)cost"), "cost", var.names))) %>% 
+                                          ifelse(str_detect(var.names, "(?i)cost"), "cost", var.names))) %>% 
             dplyr::select(id, cost, geometry) %>% arrange(id)
-        
+
         # Begin the parallel structure
           UseCores <- detectCores() -1
           cl <- makeCluster(UseCores)  
@@ -93,8 +94,8 @@ posthoc_marxan <- function(path, outdir, geo.proj) {
   
 }
 
-  system.time(posthoc_marxan(path = "Iterationsvelocity",
-                             outdir = "Iterationsvelocity/",
+  system.time(posthoc_marxan(path = "ztest",
+                             outdir = "ztest/",
                              geo.proj = "+proj=aea +lat_1=60 +lat_2=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"))
 
 
