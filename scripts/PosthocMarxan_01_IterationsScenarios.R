@@ -99,4 +99,9 @@ posthoc_marxan <- function(path, outdir, geo.proj) {
                              geo.proj = "+proj=aea +lat_1=60 +lat_2=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"))
 
 
+# for PNG
+# "+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
 
+# for med
+# "+proj=aea +lat_1=60 +lat_2=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+  
