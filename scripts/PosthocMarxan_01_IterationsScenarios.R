@@ -57,7 +57,7 @@ posthoc_marxan <- function(path, outdir, geo.proj) {
                   name_outlog <- unlist(strsplit(name_outlog, " "))[5]
                 # Extract from the shapefile the object dt
                   dt2 <- dt_shp[dt_shp$id %in% dt$id,]
-                  dt3 <- dt2 %>% dplyr::summarise(new_cost = sum(cost, do_union = TRUE))
+                  dt3 <- dt2 %>% dplyr::summarise(total_cost = sum(cost, do_union = TRUE), median_cost = median(cost, do_union = TRUE)) # testing...
                   dt_final <- dt3 %>% mutate(area = st_area(dt3), 
                                              perimeter = st_perimeter(dt3), 
                                              solution = name,
@@ -94,8 +94,8 @@ posthoc_marxan <- function(path, outdir, geo.proj) {
   
 }
 
-  system.time(posthoc_marxan(path = "ztest",
-                             outdir = "ztest/",
+  system.time(posthoc_marxan(path = "BLM-Velocity",
+                             outdir = "BLM-Velocity/",
                              geo.proj = "+proj=aea +lat_1=60 +lat_2=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"))
 
 
