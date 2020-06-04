@@ -1,0 +1,15 @@
+[GIS]
+name=
+pulayer=C:\Users\user\Desktop\v2019(preliminary)\Marxan\Scenario3\pu\costlayer2.shp
+KeyField=
+Layers=2
+Layer1=C:\Users\user\Desktop\v2019(preliminary)\Marxan\Scenario3\pu\costlayer2.shp
+Layer1Colour=0
+Layer1Selected=1
+Layer2=C:\Users\user\Desktop\v2019(preliminary)\Marxan\Scenario3\pu\costlayer2.shp
+Layer2Colour=1
+Layer2Selected=1
+
+[Marxan]
+name=Marxan
+input=C:\Users\user\Desktop\v2019(preliminary)\Marxan\Scenario3\input.dat
